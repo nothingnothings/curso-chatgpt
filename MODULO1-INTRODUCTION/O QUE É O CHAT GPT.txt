@@ -1,0 +1,356 @@
+
+
+
+
+
+
+
+
+
+
+
+É UM WEB-BASED AI,
+
+
+
+CHATBOT...
+
+
+
+
+
+
+
+
+
+
+
+--> VC PODE CONVERSAR COM ELE SOBRE QUALQUER TOPICO...
+
+
+
+
+
+
+
+
+
+
+
+
+-> PODE ESCREVER CÓDIGO PARA VOCE,
+
+EMAILS, ETC...
+
+
+
+
+
+
+
+
+
+
+
+
+--. COMECAR COM O CHATGPT É SUPER FÁCIL...
+
+
+
+
+
+
+
+
+ABRIR O CHATGPT...
+
+
+
+
+
+
+
+
+--> DEPOIS DE CRIAR SUA CONTA, VC PODE ESCREVER 
+
+SEU PRIMEIRO PROMPT,
+
+O PRIMEIRO TEXTO 
+
+AO CHATGPT..
+
+
+
+
+
+
+
+
+
+
+
+
+
+-> DIGAMOS QUE VC ESTÁ TRABALHANDO 
+
+
+
+
+EM 1 MOBILE APP --> VC PODERIA COMUNICAR-SE COM 
+
+
+
+
+SEU EMPREGADOR COM 1 EMAIL,
+
+
+
+
+
+OU ENTAO PODERIA ENVIAR ESSE EMAIL POR MEIO DE 1 PROMPT DO 
+
+CHATGPT...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> PARA ENVIAR O PROMPT, ESCREVEMOS:
+
+
+
+
+
+- WORKING ON THE LAST KEY FEATURES 
+ 
+- PROJECT IS 10% ABOVE BUDGET 
+
+- PLANNED TO FINISH IN Q3
+
+
+
+
+
+
+
+
+
+
+
+
+DEPOIS DISSO,
+
+DEPOIS DESSAS CONDICOES,
+
+DEVEMOS DAR _ O CONTEXTO AO CHAT GPT...
+
+
+
+
+PODE FICAR ASSIM:
+
+
+
+
+
+
+
+
+
+
+
+
+Write a short summary for the client regarding the current mobile 
+app project status:
+
+- WORKING ON THE LAST KEY FEATURES 
+ 
+- PROJECT IS 10% ABOVE BUDGET 
+
+- PLANNED TO FINISH IN Q3
+
+
+
+
+
+
+
+
+
+
+
+
+--> QUANDO ENVIARMOS ESSE PRONT,
+
+RECEBEREMOS 1 TEXT INTEIRO,
+
+
+
+QUE POSSUIRÁ 1 FORMATO DE EMAIL..
+
+
+
+
+
+
+
+
+PODERÍAMOS QUASE ENVIAR ESSE EMAIL DIRETAMENTE AO CLIENT...
+
+
+
+
+
+
+
+
+
+
+
+
+
+-> O CHATGPT TAMBÉM É CONTEXT-AWARE --> QUER DIZER QUE 
+
+A INFO ENVIADA 
+
+
+NO MEIO DE 1 TEXT PODE SER REFERIDA E CONSIDERADA PELO CHATGPT...
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> O PROFESSOR COLOCA 
+
+""THE CLIENTS NAME IS JOHN GREEN" --> sem nenhuma outra info,
+
+o
+ chatgpt 
+
+ vai 
+
+ usar 
+
+ o email que 
+
+ tinhamos antes,
+
+
+
+ mas agora com o nome do client no email...
+
+
+
+
+
+
+
+
+
+
+
+
+
+PODERÍAMOS REFINAR O EMAIL, ETC ETC...
+
+
+
+
+
+
+
+
+
+E É ASSIM QUE O CHATGPT FUNCIONA...
+
+
+
+
+
+
+
+
+CHATGPT --> É DE GRACA.... ALÉM DESSA VERSION FREE,
+
+VC TEM A VERSAO PAGA,
+CHATGPT PLUS..
+
+
+
+
+
+
+VEREMOS A DIFERENCA ENTRE ESSAS 2 VERSIONS NA PROXIMA AULA...
+
+
+
+
+
+
+
+
+NESSE CURSO, NAO IMPORTA SE VC ESTÁ COM A VERSAO FREE OU PAGA...
+
+
+
+
+
+
+
+
+
+-> O QUE IMPORTA É APRENDER TECNICAS PARA USAR O 
+
+CHATGPT...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

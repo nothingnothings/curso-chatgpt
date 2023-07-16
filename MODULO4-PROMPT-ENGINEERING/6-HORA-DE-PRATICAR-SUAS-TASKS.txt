@@ -1,0 +1,316 @@
+
+
+
+
+
+
+
+
+
+
+
+OK... SABER A IMPORTANCIA 
+
+
+
+SOBRE CONTEXT,
+
+
+
+E TER ALGUMAS IDEIAS DO QUE ADICIONAR NOS NOSSOS PROMPTS,
+
+POR EXEMPLO:
+
+
+
+
+
+
+
+1) PREFER SHORT, FOCUSED SENTENCES 
+
+
+
+2) ADD IMPORTANT KEYWORDS AND AVOID __ UNNECESSARY INFORMATION
+
+
+
+
+3) DEFINE THE TARGET AUDIENCE 
+
+
+
+4) CONTROL TONE, STYLE E LENGTH OF THE OUTPUT 
+
+
+
+
+5) CONTROL THE OUTPUT FORMAT (TEXT, JSON, UNFORMATTED MARKDOWN, ETC)...
+
+
+
+
+
+
+
+
+
+
+
+
+--> PRACTICE MAKES PERFECT..
+
+
+
+
+
+
+
+
+
+-> O PROFESSOR PREPAROU ALGUNS EXAMPLES,
+
+
+
+COM OS QUAIS PODEMOS PRATICAR O QUE APRENDEMOS DURANTE AS ÚLTIMAS LICOES...
+
+
+
+
+
+
+
+
+
+
+
+--> NA PRÓXIMA LICAO,
+O PROFESSOR MOSTRARÁ COMO ELE 
+
+
+
+FEZ ESSES EXEMPLOS, COMO ELE CRIOU PROMPTS QUE 
+
+
+DAO 
+
+
+AS MELHORES RESPONSES POSSÍVEIS..
+
+
+
+
+
+
+
+
+
+
+
+
+
+TEMOS 3 EXEMPLOS, QUE DEVEMOS FEED AO CHATGPT 
+
+E ENTAO 
+
+DEVEMOS 
+
+MELHORAR, PARA CONSEGUIR AS MELHORES RESPONSES POSSÍVEIS...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-> DEVEMOS TENTAR DIFERENTES PROMPTS,
+
+E TENTAR 
+REFINAR 
+
+
+O 
+RESULTADO COM FOLLOWUP MESSGES...
+
+
+
+
+
+
+
+
+
+
+
+--> O PROFESSOR QUER QUE PRATIQUEMOS...
+
+
+
+
+
+
+
+
+--> DEVEMOS TER EM MENTE QUE O CHATGPT É DINAMICO --> OS EXATOS MESMOS 
+
+PROMPTS NAO DARAO OS MESMOS RESULTADOS...
+
+
+
+
+
+
+
+CERTO...
+
+
+
+
+
+
+
+
+--> DEVEMOS PRATICAR O QUE APRENDEMOS,
+
+PLAY AROUND COM DIFERENTES PROMPT STYLES E PEDACOS DE 
+CONTEXT 
+
+
+ADICIONADOS A ESSES PROMPTS...
+
+
+
+
+
+
+
+
+
+
+
+OS EXEMPLOS SAO:
+
+
+
+
+
+
+
+
+
+1) create a SHORT PRODUCT ANNOUNCEMENT TEXT FOR A NEW AI-POWERED 
+WEBSITE GENERATOR.
+
+
+
+MEU PROMPT:
+
+
+
+
+You: You are the owner of a new, revolutionary AI-powered Website Generator. Create a short product announcement text to sell the application's features. The text must be less than 80 characters long.
+
+AI: "Transforming Web Design: Our AI-Powered Website Generator!"
+
+You: The text must be less than 200 characters long.
+
+AI: "Introducing the Future of Web Design: AI-Powered Website Generator! Create Stunning Sites Effortlessly. Get Yours Today!"
+
+You: The message must not contain the word "Future".
+
+AI: "Unleash Your Website's Potential: AI-Powered Generator! Effortless Design. Get Yours Now!"
+
+You: The text must be less than 300 characters long.
+
+AI: "Revolutionize Your Web Design: AI-Powered Website Generator! Effortless Creation. Get Yours Today and Stand Out Online!"
+
+You: The message must contain the word "creator".
+
+AI: "Empower Your Creativity: AI-Powered Website Creator! Effortless Design. Build Stunning Sites Today!"
+
+
+
+
+
+
+
+
+2) CREATE A PYTHON CODE SNIPPET THAT SEARCHES AND DELETES ALL 
+.png AND .jpg FILES IN A GIVEN FOLDER 
+
+
+
+User: Create a Python snippet that searches and deletes all .png and .jpg files in a given folder, with comments for each step of the code execution.
+
+
+Assistant:
+import os
+
+def delete_png_and_jpg_files(folder_path):
+    # Get a list of all files in the given folder
+    files = os.listdir(folder_path)
+
+    # Iterate over each file in the folder
+    for file_name in files:
+        # Create the full path to the file
+        file_path = os.path.join(folder_path, file_name)
+
+        # Check if the file is a regular file and ends with .png or .jpg extension
+        if os.path.isfile(file_path) and (file_name.lower().endswith(".png") or file_name.lower().endswith(".jpg")):
+            try:
+                # Delete the file
+                os.remove(file_path)
+                print(f"Deleted: {file_path}")
+            except OSError as e:
+                print(f"Error deleting {file_path}: {e}")
+
+if __name__ == "__main__":
+    # Specify the folder path where you want to search for and delete .png and .jpg files
+    folder_to_search = "/path/to/your/folder"
+
+    # Call the function to delete .png and .jpg files in the specified folder
+    delete_png_and_jpg_files(folder_to_search)
+
+
+
+
+
+
+3) WRITE AN EMAIL TO A COLLEAGUE THAT YOU NEED FEEDBACK 
+ON YOUR SUBMITTED PROTOTYPE UNTIL THE END OF THE WEEK....
+
+
+User: You are a Web Developer waiting 
+for feedback on a prototype submitted to
+ a colleague, prototype which should be submitted 
+ until the end of the week. Write a polite email requesting the feedback.
+
+
+
+Assistant: Subject: Gentle Reminder: Request for Prototype Feedback
+
+Dear [Colleague's Name],
+
+I hope this email finds you well. I am writing to kindly remind you about the prototype I shared with you last week. I understand that you might be busy with your own tasks and responsibilities, but I was hoping to receive your valuable feedback on the prototype by the end of this week.
+
+Your input and insights are crucial to the progress of this project, and your feedback will help us improve and refine the prototype before its final submission. I am eager to hear your thoughts on the design, functionality, and overall user experience.
+
+Please don't hesitate to share any comments, suggestions, or concerns you might have. Your honest feedback is highly appreciated and will contribute significantly to the success of the project.
+
+If you need any additional information or assistance, please don't hesitate to reach out to me. I'm more than willing to provide any further explanations or clarifications you may require.
+
+Thank you once again for your time and consideration. I look forward to receiving your feedback by the end of the week.
+
+Best regards,
+
+[Your Name]
+Web Developer

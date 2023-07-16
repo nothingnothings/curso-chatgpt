@@ -1,0 +1,419 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> ATÉ AGORA, JÁ TEMOS 1 SOLID FOUNDATION DE 
+
+ALGUMAS 
+
+CORE PROPMTING TECHNIQUES,
+
+E DOS 
+
+CORE ELEMENTS QUE FORMAM 1 PROMPT....
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-> AGORA, NESSA LICAO,
+O PROFESSOR QUER 
+
+VER MAIS SOBRE PROMPTING,
+
+
+
+NOS MOSTRAR ALGUMAS TECHNIQUES MAIS AVANCADAS....
+
+
+
+
+
+
+
+
+
+
+
+-> MAS TODAS ESSAS TECNICAS USAM OS CONCEITOS APRENDIDOS 
+DURANTE 
+
+AS ÚLTIMAS LICOES..
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> A PRIMEIRA TECNICA QUE O PROFESSOR QUER NOS MOSTRAR 
+
+
+É A 
+
+DO 
+
+
+""ASK-BEFORE-ANSWER"" PROMPTING..
+
+
+
+
+
+
+
+
+
+
+
+
+A IDEIA AQUI É SIMPLESMENTE QUE VC 
+
+
+__ AINDA _ VAI TER A ESTRUTURA:
+
+
+
+
+
+
+
+
+
+
+
+1) ROLE 
+
+
+
+2) GOAL 
+
+
+
+3) EXTRA INFO (CONSTRAINTS E INFO)...
+
+
+
+
+
+
+
+
+
+
+
+
+
+------> ENTRETANTO, ADICIONALMENTE,
+
+
+
+NO SEU PROMPT,
+
+
+VC VAI DIZER AO CHAT GPT QUE,
+ANTES DE 
+
+ELE 
+
+GERAR 
+
+A MAIN ANSWER AO NOSSO PROMPT,
+
+
+
+
+
+__ ELE __DEVE PRIMEIRAMENTE 
+
+
+
+RESPONDER 1 
+
+PUNHADO 
+
+DE 
+
+""""CLARIFICATION QUESTIONS""""",
+
+
+
+
+
+
+
+
+tipo assim:
+
+
+
+
+
+
+
+
+
+
+"Before answering, I want you to first ask for any extra information that helps 
+you produce a better answer. If you got no questions, please provide the 
+answer instead."
+
+
+
+
+
+
+(Isso é genial)....
+
+
+
+
+
+
+
+
+
+
+
+
+--> ESSE PUNHADO DE QUESTIONS VAO 
+
+
+AJUDAR O CHATGPT A PRODUZIR UMA ANSWER MELHOR...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-> O PROFESSOR DEMONSTRA COM 1 EXEMPLO DE PROMPT:
+
+
+
+
+
+
+
+
+
+
+
+You are an experienced travel blogger with a focus on destinations for nature and activity 
+lovers. 
+
+
+Your goal is to write a blog post about snorkeling at Champagne Beach on Dominica.
+
+
+The post should be no longer than 750 characters and target a broad audience 
+that goes beyond divers or nature enthusiasts.
+
+
+Before answering, I want you to first ask for any extra information that 
+helps you produce a better answer. If you got no questions, please provide the 
+answer instead.
+
+
+
+
+
+
+
+
+------------------------
+
+
+
+O ÚLTIMO PARÁGRAFO É O IMPORTANTE....
+
+
+
+
+
+
+
+
+Before answering, I want you to first ask for any extra information that 
+helps you produce a better answer. If you got no questions, please provide the 
+answer instead.
+
+
+
+
+
+
+
+
+
+--> ISSO AJUDA A CONSEGUIR O BEST POSSIBLE BLOG POST....
+
+
+
+
+
+
+O PROFESSOR MOSTRA A DIFERENCA ENTRE 
+
+
+2 BLOG POSTS,
+
+
+1 
+
+
+COM ESSE ÚLTIMO PARAGRAFO,
+
+
+
+
+E OUTRO SEM...
+
+
+
+
+
+
+
+
+
+
+
+
+SEM ESSE PARAGRAFO, O POST É DECENTE,
+
+MAS NADA 
+
+DE ESPECIAL...
+
+
+
+
+
+
+
+
+
+
+--> COM O PARAGRAFO,
+ELE PERGUNTA 
+
+
+
+SOBRE QUAIS ASPECTOS QUERO DESTACAR AINDA MAIS...
+
+
+
+
+
+
+""SUCH AS MARINE LIFE, SNORKELING CONDITIONS OR NEARBY ATTRACTIONS"""
+
+
+
+
+
+
+
+
+
+
+--> O PROFESSOR PROVIDENCIA MAIS INFO,
+
+PARA QUE O CHATGPT COMPLEMENTE...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> É POR ISSO QUE USAR ESSA ASK-BEFORE-ANSWER 
+
+
+
+TECHNIQUE 
+
+
+
+
+É BOA... ---> VOCE TIRA VANTAGEM 
+
+
+
+DA VASTA KNOWLEDGE POOL DO CHATGPT 
+
+
+
+E 
+
+
+
+DAS CAPACIDADES DE GERACAO DE RESPOSTAS MELHORES,
+
+
+
+PELO SIMPLES 
+
+
+
+
+
+PEDIDO PELO ASK _ DE 
+
+
+MAIS PERGUNTAS 
+
+E INFO, ANTES DE GERAR O FINAL OUTPUT...
+
+
+
+
+
+
+--> ESSA É UMA BOA EXTRA TRICK...

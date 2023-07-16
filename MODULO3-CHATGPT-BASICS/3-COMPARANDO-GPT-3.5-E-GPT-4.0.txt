@@ -1,0 +1,716 @@
+
+
+
+
+
+
+
+
+
+
+
+--> OK... 
+
+
+
+
+
+
+QUANDO GRAVARAM ESSE CURSO,
+
+TIVERAM A ESCOLHA ENTRE 3 VERSIONS:
+
+
+
+
+
+
+
+
+1) 3.5 LEGACY 
+
+
+
+
+2) 3.5 DEFAULT 
+
+
+
+3) 4 
+
+
+
+
+
+
+
+
+
+
+
+-> A VERSAO LEGACY JÁ ESTAVA OUTDATED,
+
+
+POR ISSO VAMOS COMPARAR APENAS 
+
+AS VERSOES 3.5 E 4...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AS MAIN DIFFERENCES ENTRE OS 2 MODELS SAO 3:
+
+
+
+
+
+
+
+1) SPEED 
+
+
+
+
+2) REASONING 
+
+
+
+
+
+3) CONCISENESS....
+
+
+
+
+
+
+
+
+
+
+
+
+
+COMECAMOS COM SPEED...
+
+
+
+
+
+
+
+
+
+1) SPEED -->  O CHAT GPT 3.5 É __ MT MAIS RÁPIDO__ DO QUE 
+                O CHAT  GPT 4, QUANDO SAO CRIADOS OUTPUTS...
+
+
+3.5: 5 ESTRELAS 
+
+
+4: 2 ESTRELAS 
+
+
+
+MAS PQ O CHATGPT 4 É TAO MAIS LENTO DO QUE O 3.5?
+
+
+
+
+
+
+
+
+
+
+
+A RESPOSTA RESIDE NAS 2 OUTRAS DIFFERENCES:
+
+
+
+
+
+
+
+2) REASONING 
+
+
+
+------> O REASONING DAS 2 VERSIONS:
+
+
+
+
+3.5 --> 3 ESTRELAS 
+
+4 -> 5 ESTRELAS...  
+
+
+
+
+
+
+QUER DIZER QUE O REASONING DA VERSAO 4 É BEM MELHOR DO QUE 
+
+
+
+A DO 3.5... --> MAS O QUE É REASONING..
+
+
+
+
+
+
+REASONING --> QUER DIZER """"RESPONDER DE UMA FORMA LÓGICA"""" --> QUER DIZER QUE 
+
+VC PROVIDENCIA 1 RESPOSTA __ COM BASE NA QUESTION QUE VC RECEBEU, 
+
+E A PARTIR DE TODO O CONHECIMENTO E CONTEXTO QUE VC TEM....
+
+
+
+
+
+
+
+
+
+--> APESAR DO CHATGPT PARECER BEM HUMANO,
+
+
+ELE É UM LARGE LANGUAGE MODEL --> FOI TREINADO COM MTAS E MTAS QUANTIDADES 
+DE DATA,
+
+E _ ESTABELECE CONEXOES ENTRE A DIFERENTE DATA COM QUE FOI TREINADA...
+
+
+
+
+
+
+
+
+
+
+--> O CHATGPT 4 FOI TREINADO COM BEM MAIS DATA,
+
+ 
+ O QUE QUER DIZER QUE É CAPAZ DE PROCESSAR BEM MAIS DATA... -> TEM 1 BIGGER 
+
+ DATABASE....
+
+
+
+
+--> É POR ISSO QUE O 
+
+OUTPUT PROVIDENCIADO PELO CHATGPT 4 É MAIS ELABORADO E MAIS LÓGICO...
+
+
+
+
+
+
+
+
+
+
+--> É POR ISSO QUE TEMOS ESSA GRANDE DIFERENCA ENTRE O 3.5 E O 4...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3) CONCISENESS
+
+
+
+--> NESSA CATEGORIA, O CHAT GPT TAMBÉM É BEM MELHOR DO QUE 
+
+O 
+
+3.5..
+
+
+
+
+
+
+3.5 --> 2 ESTRELAS 
+
+
+
+4 --> 4 ESTRELAS...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-> CONCISENESS --> pode ser descrita como EFICIENCIA --> QUER DIZER QUE 
+
+
+O GPT 4 TENTA 
+
+
+__PROVIDENCIAR O OUTPUT COM TODA 
+
+
+INFO NECESSÁRIA,
+
+MAS COM 
+
+A MENOR QUANTIDADE DE TOKENS POSSÍVEIS...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RESUMINDO:
+
+
+
+
+
+
+
+3.5 --> É O MODEL MAIS RÁPIDO, MAS É MAIS FRACO...
+
+
+
+
+
+
+
+
+
+
+4 --> É O MODEL MAIS PODEROSO,
+MAS DEMORA MAIS -->  O MODELO 4 DEVE SER USADO PARA 
+
+PERGUNTAS E TASKS MAIS COMPLEXAS...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NESSE CURSO, USAREMOS TAMBÉM A VERSAO 4,
+
+
+
+MAS 
+
+
+
+ANTES 
+
+
+DISSO 
+
+
+DEVEMOS 
+
+VER 
+
+
+ALGUMAS DESSAS DIFERENCAS 
+
+EM 
+
+1 
+
+PRACTICAL EXAMPLE...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ESSE EXAMPLE É ACTUALLY 1 EXEMPLO OFICIAL, POR PARTE DO TIME 
+
+OPENAI...
+
+
+
+
+
+
+
+
+
+
+
+
+-> MAS É UM ÓTIMO MODELO PARA MOSTRAR AS DIFERENCAS ENTRE ESSES 2 MODELS...
+
+
+
+
+
+
+
+
+
+
+-> ESSE EXAMPLE É ALL ABOUT 
+
+ENCONTRAR 
+
+1 
+
+""30 MINUTE MEETING SLOT""
+
+
+PARA _ 3 DIFERENTES PESSOAS....
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A PERGUNTA/PROMPT É ASSIM:
+
+
+
+
+
+
+
+
+Andrew is free from 11 am to 3 pm, Joanne is free from noon to 2 pm 
+and then 3:30pm to 5pm. Hannah is available at noon for half an hour,
+and then 4pm to 6pm. What are some options for start times for 
+a 30 minute meeting for Andrew, Hannah and Joanne?
+
+
+
+
+
+
+
+
+
+
+
+
+
+PERGUNTAMOS AO CHAT GPT EM QUE __ 
+TODAS PESSAOS FICARAM DISPONÍVEIS...
+
+
+
+
+
+
+
+
+
+
+- a única WORKING SOLUTION, AQUI,
+
+
+É DE 12:30 A 12:30Pm..
+
+
+(
+    ou seja,
+
+    de NOON A 12:30pm...
+
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> O PROFESSOR TESTA COM O MODELO 3.5..
+
+
+
+
+
+
+
+
+
+
+
+MEU OUTPUT FICOU ASSIM:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+To find a suitable start time for a 30-minute meeting that accommodates all three individuals (Andrew, Hannah, and Joanne), we need to identify overlapping time slots when all of them are available.
+
+Andrew is free from 11 am to 3 pm.
+Joanne is free from noon to 2 pm and then from 3:30 pm to 5 pm.
+Hannah is available at noon for half an hour and then from 4 pm to 6 pm.
+Based on the above schedules, we can identify the overlapping time slots:
+
+Andrew is available from 11 am to 3 pm.
+Joanne is available from noon to 2 pm.
+Hannah is available from noon to 12:30 pm.
+The overlapping time slot that accommodates all three is from noon to 12:30 pm. So, the start time for the 30-minute meeting for Andrew, Hannah, and Joanne could be at noon.
+
+
+
+
+
+
+
+
+-------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> CERTO.... O PROFESSOR DETALHA:
+
+
+
+
+
+
+""EU COPIEI E COLEI O PROMPT SEM TER NENHUM PARÁGRAFO""""...
+
+
+
+
+
+
+
+
+
+
+
+-> PARECE QUE ESPACAMENTO TAMBÉM É IMPORTANTE...
+
+
+
+
+
+--> MAS VEREMOS ISSO MAIS TARDE NO CURSO...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-> A RESPOSTA DO PROFESSOR FICOU ERRADA,
+
+NAO FOI CAPAZ DE ENCONTRAR ESSE TIME SLOT...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> JÁ O CHAT GPT 4 FOI CAPAZ DE ENCONTRAR O ÚNICO WORKING TIME SLOT...
+
+
+
+
+
+
+--> MAS O PROFESSOR RESSALTA QUE O CHATGPT 
+
+
+TEM CERTO RANDOMNESS FACTOR INTEGRADO A SI....
+
+
+
+
+
+
+
+
+
+
+--> PODEMOS TER ALGUMAS DIFERENCAS DE PALAVRAS,
+
+
+
+MAS 
+
+
+
+
+
+O __CONTEÚDO TAMBÉM PODE SER ALTERADO..
+
+
+
+
+
+
+
+
+
+
+--> NUNCA GANHAREMOS OS MESMOS RESULTADOS..
+
+
+
+
+
+
+
+
+
+CHAT GPT 4 -> É O MODEL MAIS POWERFUL....
+
+
+
+
+
+
+
+-> PODEMOS USAR O 3.5 PARA RODAR COISAS MAIS SIMPLES...
+
+
+
+
+
+
+
+
+
+-> USAREMOS O CHAT GPT 4 PARA O RECORDING DOS VIDEOS....
+
+
+
+
+
+
+- AGORA DEVEMOS DAR 1 OLHADA MELHOR EM __ PROMPTS_...

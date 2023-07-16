@@ -1,0 +1,246 @@
+
+
+
+
+
+
+
+
+
+
+
+-----> O ÚLTIMO EXEMPLO FOI ESTE:
+
+
+
+
+
+
+
+
+
+
+
+3) WRITE AN EMAIL TO A COLLEAGUE THAT YOU NEED FEEDBACK 
+ON YOUR SUBMITTED PROTOTYPE UNTIL THE END OF THE WEEK....
+
+
+User: You are a Web Developer waiting //ROLE 
+for feedback on a prototype submitted to
+ a colleague, prototype which should be submitted 
+ until the end of the week. //EXTRA CONTEXT/CONSTRAINT 
+
+  Write a polite email requesting the feedback. //GOAL
+
+
+
+Assistant: Subject: Gentle Reminder: Request for Prototype Feedback
+
+Dear [Colleague's Name],
+
+I hope this email finds you well. I am writing to kindly remind you about the prototype I shared with you last week. I understand that you might be busy with your own tasks and responsibilities, but I was hoping to receive your valuable feedback on the prototype by the end of this week.
+
+Your input and insights are crucial to the progress of this project, and your feedback will help us improve and refine the prototype before its final submission. I am eager to hear your thoughts on the design, functionality, and overall user experience.
+
+Please don't hesitate to share any comments, suggestions, or concerns you might have. Your honest feedback is highly appreciated and will contribute significantly to the success of the project.
+
+If you need any additional information or assistance, please don't hesitate to reach out to me. I'm more than willing to provide any further explanations or clarifications you may require.
+
+Thank you once again for your time and consideration. I look forward to receiving your feedback by the end of the week.
+
+Best regards,
+
+[Your Name]
+Web Developer
+
+
+
+
+
+
+
+
+------------------------------
+
+
+
+
+
+
+
+O EXEMPLO DO PROFESSOR FICOU ASSIM:
+
+
+
+
+
+
+
+
+
+
+
+
+You are an email writing assistant. //ROLE
+
+
+
+Write an email to a colleague that you need feedback on your submitted // GOAL
+prototype until end of the week.
+
+
+The email should be friendly yet determined. Make it clear that the feedback 
+is definitely needed until the end of the week. // CONTEXT AND CONSTRAINTS..
+
+
+Write a short, concise email. The colleague's name is Michael. //CONTEXT AND GOAL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> PARA MOSTRAR A IMPORTANCIA DE 
+
+""UNTIL THE END OF THE WEEK"",
+
+
+O PROFESSOR REPETIU ESSES TERMOS 2x....
+
+
+
+
+
+
+
+
+
+
+
+---->  ELE TAMBÉM COLOCOU ""WRITE A SHORT, CONCISE EMAIL""..
+
+
+
+
+
+
+
+
+
+
+
+
+
+TIPO ASSIM:
+
+
+
+
+
+
+
+
+
+
+
+
+
+Subject: Friendly Request: Prototype Feedback by End of Week
+
+Hi Michael,
+
+I hope you're doing well. I wanted to reach out to you regarding the prototype I recently submitted for our project.
+
+I value your expertise and insights, and I believe your feedback would be incredibly beneficial for refining our work. It's important for us to move forward with this project, and in order to meet our deadlines, I really need your input on the prototype by the end of this week.
+
+I understand everyone's busy, but I'm confident that your perspective will help us make significant improvements. If you could spare some time to review the prototype and share your thoughts with me by Friday, it would be immensely appreciated.
+
+Thank you so much for your cooperation. I'm looking forward to hearing from you soon!
+
+Best regards,
+
+[Your Name]
+
+
+
+
+
+
+
+
+
+-----------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OK.... ENTAO O CHATGPT ESCREVEU ESSE EMAIL..
+
+
+
+
+
+
+É FRIENDLY,
+
+
+MAS 
+
+
+
+PEDE FEEDBACK O MAIS RÁPIDO POSSÍVEL...
+
+
+
+
+
+
+
+
+
+
+
+--> MAS É CLARO QUE ESSE É APENAS 1 STARTING POINT --> VC PODE TWEAKAR 
+
+E REFINAR ESSE OUTPUT...
+
+
+
+
+
+
+
+
+
+
+
+
+
+mas vc poderia 
+
+enviar o email assim tbm, se quisesse...
+
+
+
+
+
+
+

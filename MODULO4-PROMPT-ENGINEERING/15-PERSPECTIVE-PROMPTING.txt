@@ -1,0 +1,436 @@
+
+
+
+
+
+
+
+
+
+
+
+---> OK.... OUTRA PROMPTING TECHNIQUE RECOMENDADA PELO 
+PROFESSOR, QUE PODE SER ÚTIL,
+
+É 
+POV PROMPTING,...
+
+
+
+
+
+
+
+
+
+
+
+
+--> COM ISSO, PODEMOS FORCAR O CHATGPT 
+
+A ASSUMIR DIFERENTES PERSPECTIVAS,
+
+À MEDIDA QUE ELE VAI PRODUZINDO O OUTPUT....
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---> POR DEFAULT,
+O CHATGPT USA NENHUMA PERSPECTIVE...
+
+
+
+
+
+EXEMPLO:
+
+
+
+
+
+""CREATE A TRAVEL ITINERARY FOR A 2 WEEK YOGA RETREAT IN AUSTRIA""...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+COMO O PROFESSOR NAO PEDIU NENHUMA PERSPECTIVE, ELE 
+
+CONSEGUE 1 RESPONSE NORMAL...
+
+
+
+
+
+
+
+
+
+
+
+PODERÍAMOS ADICIONAR 1 ROLE, CONSTRAINTS, EXTRA INFO...
+
+
+
+
+
+
+
+
+
+
+
+
+--> MAS PODEMOS 
+
+USAR ESSA TECNICA DE 
+
+
+""PERSPECTIVE PROMPTING""...
+
+
+
+
+
+
+
+
+
+
+
+
+--> ou seja, podemos usar ""SINGLE PERSPECTIVE""...
+
+
+
+
+
+SINGLE PERSPECTIVE --> É ASSUMIDA 
+
+
+
+PELA NOSSA CONFECCAO 
+
+DO PROMPT DE 1 CERTA MANEIRA..
+
+
+
+
+AQUI, NÓS, POR EXEMPLO,
+
+
+
+
+
+
+PODERÍAMOS PEDIR 
+
+
+
+
+
+
+
+""""CREATE A TRAVEL ITINERARY FOR A 2-WEEKS YOGA RETREAT IN 
+AUSTRIA FROM THE PERSPECTIVE OF A YOGA TRAINER""...
+
+
+
+
+
+
+
+
+
+
+--> COM ISSO, CONSEGUIMOS 1 PLAN, MAS 
+1
+ QUE DEVE SER USADO POR 1 YOGA TRAINER....
+
+
+
+
+
+
+
+
+
+
+
+ --> CONSEGUIMOS 1 PLAN TOTALMENTE DIFERENTE --> QUE DEVE SER USADO,
+
+
+ NESSE EXEMPLO,
+
+ PELA PESSOA QUE ESTÁ __ HOSTEANDO__ O YOGA RETREAT...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ --> É CLARO QUE ISSO É APENAS O ADD DE 1 ROLE AO 
+
+ PROMPT,
+
+ MAS ESCRITO DE 1 MANEIRA 1 POUQUINHO DIFERENTE...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -> PODERÍAMOS TER ESCRITO ASSIM:
+
+
+
+
+
+
+
+
+ ""YOU ARE A YOGA TRAINER.
+
+ CREATE A TRAVEL ITINERARY FOR A 2-WEEKS YOGA RETREAT IN AUSTRIA""...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ --. QUER DIZER QUE, PELO ASSIGN DE 1 ROLE,
+
+
+ JÁ USAMOS ESSA SINGLE PERSPECTIVE 
+
+ PROMPT TECHNIQUE...
+
+
+ (
+
+    já usamos..
+ )
+
+
+
+
+
+
+
+
+
+
+
+
+ MAS A NOVA COISA É QUE VC PODE __ TAMBÉM USAR 
+
+
+
+
+
+
+
+ 3) MULTIPLE PERSPECTIVE,
+
+ PARA O GENERATE DESSE PROMPT..
+
+
+
+
+
+
+
+
+
+
+
+
+
+ --> de novo, por meio de prompt engineering..
+
+
+
+
+
+
+
+
+
+ --> PODEMOS, POR EXEMPLO,
+
+
+ FORCAR 1 DISCUSSAO ENTRE 1 ""PROPONENT"" E 1 ""OPPONENT"" 
+
+ DE 1 PROPOSTA DE TRAVEL ITINERARY,
+
+ TIPO ASSIM:
+
+
+
+
+
+
+
+
+ ""Create a travel itinerary for a 2-weeks yoga retreat in 
+ Austria, from the perspectives of a yoga proponent and 
+ opponent""....
+
+
+
+
+
+
+
+
+
+
+
+
+ NESSE CASO,
+
+ CRIAREMOS 2 PLANS, PARA PESSOAS QUE GOSTAM 
+
+
+
+ DE YOGA,
+
+
+
+
+
+ E OUTRO PARA PESSOAS QUE NAO GOSTAM DE YOGAA...  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -. OUTRO EXEMPLO PODE SER ESTE:
+
+
+
+
+
+
+
+
+ ""DISCUSS THE PROS AND CONS OF TRAVELLING BY PLANE"" -->  COM ISSO,
+
+
+ USAMOS O CHATGPT PARA 
+
+
+
+ DAR DIFERENTES PERSPECTIVAS SOBRE 1 TÓPICO,
+
+
+ QUE ENTAO 
+
+ PODE NOS AJUDAR A ARGUMENTAR COM 
+
+ NOSSOS AMIGOS,
+ PREPARAR BLOG POSTS,
+
+
+
+
+
+ OU BRIGAR COM PESSOAS NA INTERNET.... --> ISSO É ALGO QUE PODEMOS FAZER, COM 
+
+ O CHATGPT...
+
+
+
+
+
+
+
+
+
+ A IDEIA POR TRÁS DESSE PERSPECTIVE PROMPTING 
+
+ É QUE VC PODE FORCAR O GPT 
+
+
+ A 
+
+
+
+ ASSUMIR DIFERENTES PERSPECTIVES...
+
+
+
+
+
+
+
+
+
+
+
+ -. ISSO FAZ SENTIDO PARA ALGUNS PROMPTS, MAS NEM TODOS...
+
+
+
+
+
+
+ --> COMO ESSA DISCUSSION SOBRE VIAJAR DE AVIAO..

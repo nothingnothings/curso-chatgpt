@@ -1,0 +1,370 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-> OK.... CONTEXT É IMPORTANTE,...
+
+
+
+
+
+
+
+E APRENDEMOS ESTE FORMATO:
+
+
+
+
+
+
+
+
+
+
+1) GOAL --> O GOAL, SIMPLES...
+
+
+
+
+
+
+
+
+
+2) CONTEXT ---> ROLE + [CONSTRAINTS E EXTRA INFO] + GENERAL INFO...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+E USAR ESSA BASIC STRATEGY 
+
+E MANTER 
+ESSES 
+
+CORE ELEMENTS 
+
+
+EM MENTE 
+
+VAI 
+
+LEVAR 
+
+
+A 
+ÓTIMOS RESULTS...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-> MAS NAO INTERESSA O QUAO BONS FOREM OS RESULTADOS... --> O INITIAL RESULT,
+
+
+
+O FIRST RESULT,
+
+
+
+TALVEZ NAO SEJA EXATAMETNE O QUE VC ESTÁ BUSCANDO..
+
+
+
+
+
+
+
+
+
+
+
+
+-> EXEMPLO:
+
+
+
+
+
+
+
+""""You are an experienced Twitter user, known for posting highly engaging 
+tweets that lead users to like or retweet the posted tweets."""  ////ROLE
+
+""Write a tweet about hiking."""            /////GOAL
+
+
+"""THE TWEET SHOULD USE NO MORE THAN 2 EMOJIS AND TARGET NATURE ENTHUSIASTS. IT SHOULD 
+HIGHLIGHT TWO ADVANTAGES OF GOING ON A HIKE REGULARLY.""""  ////CONSTRAINTS AND EXTRA INFO
+
+
+
+
+
+RESULTADO:
+
+🌲 Nature's calling! 🦶 Hiking not only strengthens our bond 
+with Mother Earth, but it also boosts our mental & physical health.
+Let's embrace the trails and breathe in the magic of the great outdoors! 
+#HikingAdventures #NatureLovers #GetOutside 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> NESSE TWEET, TALVEZ TENHAMOS GOSTADO DO INÍCIO DO TWEET,
+
+
+MAS TALVEZ NÃO TENHAMOS GOSTADO DA SEGUNDA PARTE...
+
+
+
+
+
+
+
+
+
+
+TALVEZ O PROFESSOR QUEIRA ADICIONAR 1 PERSONAL TOUCH/NOTE A ESSE TWEET,
+
+
+E TALVEZ 
+QUEIRA 
+
+
+
+
+ENCORAJAR A TARGET AUDIENCE 
+
+
+A __ SHARE__ O QUE ELES PENSAM SOBRE HIKING... ------->  OU SEJA,
+
+
+TALVEZ QUEIRAMOS 
+
+
+
+
+ALTERAR 
+
+
+
+
+PARTES DO RESULTADO...
+
+
+
+
+
+
+
+
+
+-> O CHATGPT OUTPUT É UM STARTING POINT --> MAS DEVEMOS FINE-TUNE 
+
+
+E AJUSTAR 
+ESSE 
+
+
+
+OUTPUT...
+
+
+
+
+
+
+
+
+--> MAS USAR FOLLOW-UP MESSAGES,
+
+E TIRAR VANTAGEM DO FATO DE QUE ESTAMOS 
+
+LIDANDO 
+
+
+COM 1 CHAT,
+
+
+PODE LEVAR A 
+
+
+
+RESULTS MELHORES,
+
+E MELHORES 
+
+
+""""STARTING POINTS"""" PARA SEUS FINISHING TOUCHES...
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> E COMO O CHATGPT CONSIDERA TODA SUA CHAT HISTORY,
+
+
+EM VEZ DE APENAS SUA LATEST MESSAGE,
+
+
+
+VC 
+
+
+NAO PRECISA COLOCAR TANTA INFO 
+
+
+
+
+
+NAS SUAS FOLLOW-UP MESSAGES... --> QUER DIZER QUE 
+
+PODEMOS 
+ESCREVER 
+
+MESSAGES MAIS SIMPLES,
+
+EM QUE NAO DEFINIMOS ROLES NEM 
+
+
+
+NADA __DO GENERO,
+
+E SIM APENAS 
+
+
+
+
+
+DEFINIMOS 
+
+O 
+EXTRA GOAL/CHANGE QUE 
+
+DEVE SER APLICADO PELO CHATGPT... -> O CHATGPT 
+
+
+VAI 
+AUTOMATICAMENTE 
+
+CONSIDERAR 
+
+A EXISTING HISTORY 
+
+
+E A CONECTAR 
+
+
+
+SUA NOVA MESSAGE COM A EXISTING HISTORY..
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> E É CLARO QUE ESSA É UMA FEATURE SUPER PODEROSA,
+
+QUE TE DEIXA USAR O CHATGPT DE UMA MANEIRA ALTAMENTE EFICIENTE...
+
+
+
+
+
+
+
+
+
+
+
+
+
+-> QUER DIZER QUE NOSSO INITIAL PROMPT NAO PRECISA SER PERFEITO,
+
+PQ 
+PODEMOS 
+
+
+
+
+
+APERFEICOAR 
+
+NOSSO OUTPUT AO LONGO DO TEMPO,
+
+COM FOLLOW-UP MESSAGES (
+
+
+
+    USAMOS O RECURSO ""CHAT""GPT..
+
+
+    A PARTE ""CHAT'" DO CHATGPT...
+)

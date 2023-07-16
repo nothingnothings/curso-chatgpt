@@ -1,0 +1,462 @@
+
+
+
+
+
+
+
+
+
+
+
+
+OK.. QUER DIZER QUE QUANDO TRABALHAMOS COM O CHATGPT 
+
+E CONSTRUIMOS 
+
+
+
+
+PROMPTS,
+
+
+
+CONTEXT É MT IMPORTANT..
+
+
+
+
+
+
+
+
+
+-> MAS QUE TIPO DE INFO VC DEVE ADICIONAR AOS SEUS PROMPTS...
+
+
+
+
+
+
+
+
+
+
+
+--> NO FINAL DAS CONTAS,
+QUALQUER INFO QUE 
+
+SEJA ÚTIL PARA SEU MAIN GOAL...
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> MAS NAO INTERESSA O CONTEXT QUE VC ESTEJA ADICIONANDO,
+
+
+VC SEMPRE 
+
+
+DEVE 
+
+PREFERIR 
+
+
+"""""sHORT, FOCUSED SENTENCES"""""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> PARA ALGUNS PROMPTS,
+
+
+TAMBÉM É POSSÍVEL FORNECER 
+
+
+UMA __ BULLET _POINT __ LIST ...
+
+
+
+
+
+
+
+
+
+
+
+TIPO ASSIM:
+
+
+
+
+
+
+
+
+Create a blog post about hiking. 
+
+
+
+Constraints:
+- Less than 500 characters.
+- Sunny Day 
+- Started early, came home late 
+- Alps 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> E ISSO REALMENTE FUNCIONA,
+
+PODE TE 
+
+DAR BONS RESULTS... -------> MAS AGORA,
+
+
+PELO MENOS POR ENQUANTO,
+
+
+
+SHORT SENTENCES 
+
+SAO MELHORES DO QUE 
+
+
+SIMPLES LISTS OF KEYWORDS..
+
+
+
+
+
+
+
+
+
+
+
+
+OU SEJA,
+
+
+É MELHOR ESCREVER ALGO ASSIM:
+
+
+
+
+
+
+
+
+Create a Blog Post About Hiking.
+
+The blog post should be less than 500 characters long. 
+We went hiking in the Alps on a sunny, lovely day. We started very early in the 
+morning and came home late in the evening.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----> OK... MAS, MESMO ASSIM,
+
+VC 
+
+DEVE INCLUIR TODAS DAS IMPORTANT KEYWORDS 
+
+QUE VC PRECISA,
+
+NESSE PROMPT.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> MAS VC _ DEVE _ EVITAR ESCREVER SENTENCES MT LONGAS,
+
+COM INFO DESNECESSÁRIA....
+
+
+
+
+
+
+
+
+""WE SHOULD USE SHORT, FOCUSED SENTENCES""..
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> TUDO QUE NAO É NECESSÁRIO PARA ATINGIR SEU GOAL 
+
+PODE DISTRAIR O CHATGPT,
+
+E LEVAR A UM 
+
+RESULTADO SUBOPTIMAL..
+
+
+
+
+
+
+
+
+
+
+--> CERTO... MAS ALGUNS TIPOS DE INFO SAO 
+
+NECESSARIOS  EM __ QUASE __ TODOS OS TIPOS DE PROMTP...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-> EM VÁRIOS PROMPTS,
+VC 
+
+TALVEZ 
+PRECISE DEFINIR A 
+
+
+_TARGET AUDIENCE DE SEU PROMPT ... -> SE VC PRECISA QUE 
+
+ELE CRIE 1 TWEET PARA VOCE,
+
+
+TALVEZ VC 
+
+
+
+PRECISE ESPECIFICAR A TARGET AUDIENCE,
+
+
+PARA QUE O CHATGPT FACA O FINE-TUNE 
+
+
+DO TWEET PARA ESSA AUDIENCE...
+
+
+
+
+
+
+  
+
+
+
+
+--> PODEMOS TAMBÉM CONTROLAR:
+
+
+
+1) TONE 
+
+
+
+2 ) STYLE 
+
+
+
+
+3) LENGTH 
+
+ 
+
+
+
+
+
+
+
+ DA RESPONSE... -> SE ELA DEVE SER LONGA, SE DEVE SER CURTA,
+
+
+ SE DEVE SER DETERMINADA, CALMA, ETC....
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ --> OUTRO TIPO DE CONTEXT BOM É 
+
+ """" O OUTPUT FORMAT"""""
+
+
+
+
+
+
+
+
+
+
+
+ --> O FORMATO DEFAULT É __ TEXT__...
+
+
+
+
+
+
+ --> PARA MTOS CASES, USAR TEXT COMO OUTPUT É MAIS DO QUE FINE..
+
+
+
+
+
+
+
+
+
+
+
+ -> ENTRETANTO, PARA ALGUNS USE-CASES,
+
+ VC 
+
+ PODE USAR 
+
+
+
+
+
+ PARA __ GENERATE ALGUMA DUMMY DATA, QUE VC TALVEZ QUEIRA 
+
+ USAR EM ALGUM DOS SEUS PROJECTS (
+
+    POR EXEMPLO, SE VC ESTÁ 
+
+    DEVELOPING 1 APP, OU SE ESTÁ 
+    PRATICANDO DATA SCIENCE...
+ )
+
+
+
+
+
+
+
+
+
+ NESSES CENÁRIOS, PODE SER ÚTIL PEDIR AO 
+
+ CHAT GPT QUE 
+ VC 
+
+ QUER O 
+
+
+
+ _- OUTPUT __ EM JSON FORMAT,
+
+ OU 
+
+ EM 
+
+ CSV.... OU ENTAO 
+
+
+
+
+ QUE VC QUER 
+
+ O 
+
+
+ FORMATO EM 
+
+
+ RAW MARKDOWN FORMAT... (
+
+    que vc poderia feedar 
+
+    no seu app,
+    onde será formatado...
+ )

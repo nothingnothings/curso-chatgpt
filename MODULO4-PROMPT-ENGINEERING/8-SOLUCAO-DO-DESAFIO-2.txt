@@ -8,3 +8,440 @@
 
 
 
+
+AGORA TEMOS O SEGUNDO DESAFIO...
+
+
+
+
+
+
+
+
+
+EU ESCREVI MEU PROMPT ASSIM:
+
+
+
+
+
+
+
+
+2) CREATE A PYTHON CODE SNIPPET THAT SEARCHES AND DELETES ALL 
+.png AND .jpg FILES IN A GIVEN FOLDER 
+
+
+
+User: Create a Python snippet that searches and deletes all .png and .jpg files in a given folder, with comments for each step of the code execution.
+
+
+Assistant:
+import os
+
+def delete_png_and_jpg_files(folder_path):
+    # Get a list of all files in the given folder
+    files = os.listdir(folder_path)
+
+    # Iterate over each file in the folder
+    for file_name in files:
+        # Create the full path to the file
+        file_path = os.path.join(folder_path, file_name)
+
+        # Check if the file is a regular file and ends with .png or .jpg extension
+        if os.path.isfile(file_path) and (file_name.lower().endswith(".png") or file_name.lower().endswith(".jpg")):
+            try:
+                # Delete the file
+                os.remove(file_path)
+                print(f"Deleted: {file_path}")
+            except OSError as e:
+                print(f"Error deleting {file_path}: {e}")
+
+if __name__ == "__main__":
+    # Specify the folder path where you want to search for and delete .png and .jpg files
+    folder_to_search = "/path/to/your/folder"
+
+    # Call the function to delete .png and .jpg files in the specified folder
+    delete_png_and_jpg_files(folder_to_search)
+
+
+
+
+
+------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> ESSA É UMA SIMPLE FACT-BASED QUESTION...
+
+
+
+
+
+
+
+
+-> GANHAMOS 1 RESULT EXATAMENTE COMO GOSTARÍAMOOS..
+
+
+
+
+
+
+
+É 1 PYTHON SCRIPT QUE PODEMOS RODAR NO NOSSO SISTEMA,
+
+PARA 
+
+
+
+REALIZAR ESSA TASK..
+
+
+
+
+
+
+
+
+
+
+
+--> MAS O PROFESSOR QUER TWEAKAR ESSE PROMPT,
+
+
+APESAR DE ELE JÁ SER BOM...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> MAS O PROFESSOR TWEAKA ASSIM:
+
+
+
+
+
+
+
+1) You are an experienced Python developer 
+
+
+
+
+
+2) Create a Python code snippet that searches 
+& deletes all .png & .jpg files in a given folder 
+
+
+
+
+3) The user who executes the script should be able 
+to define the folder dynamically. The script 
+should accept the folder path as an input.
+
+
+4) Just output the code snippet without any extra 
+explanations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> RESUMo:
+
+
+
+
+
+
+
+1) You are an experienced Python developer  /////ROLE
+
+
+
+
+
+2) Create a Python code snippet that searches  /////GOAL 
+& deletes all .png & .jpg files in a given folder 
+
+
+
+
+3) The user who executes the script should be able ////CONSTRAINT/EXTRA INFO
+to define the folder dynamically. The script 
+should accept the folder path as an input.
+
+
+4) Just output the code snippet without any extra  /////CONSTRAINT/EXTRA INFO
+explanations
+
+
+
+
+
+
+
+-------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+O RESULTADO:
+
+
+
+
+
+Sure, here's the Python code snippet that searches and deletes all .png and .jpg files in a given folder:
+
+import os
+
+def delete_png_jpg_files(folder_path):
+    for root, dirs, files in os.walk(folder_path):
+        for file in files:
+            if file.endswith(('.png', '.jpg')):
+                file_path = os.path.join(root, file)
+                os.remove(file_path)
+
+# Example usage:
+# folder_path = '/path/to/your/folder'
+# delete_png_jpg_files(folder_path)
+Remember to uncomment and set the folder_path variable with the desired folder path before executing the code. Please use this script with caution, as it will permanently delete all .png and .jpg files in the specified folder and its subdirectories. Make sure you have a backup of your files if needed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------
+
+
+
+
+
+
+
+
+
+O USER QUE EXECUTA ESSE SCRIPT DEVERÁ SER CAPAZ 
+DE DEFINIR 
+
+O 
+
+FOLDER DINAMICAMENTE..
+
+
+
+
+
+
+
+
+
+
+NOVAMENTE, SHORT, FOCUSED SENTENCES,
+
+
+
+E AÍ 
+
+O 
+
+ADD DE _ CONTEXT... --> PQ ISSO VAI MUDAR O CONTENT DO 
+
+CODE SNIPPET QUE SERÁ 
+
+CRIADO..
+
+
+
+
+
+
+
+
+
+
+--> PQ NO CODE SNIPPET ANTERIOR, 
+
+
+O PATH ESTAVA COLOCADO DIRETAMENTE NO CÓDIGO...
+
+
+
+
+
+
+
+
+
+
+
+
+MAS AGORA QUEREMOS 1 SCRIPT QUE, QUANDO EXECUTADO,
+
+
+
+""PROMPTS"" O USER PELO 
+
+
+PATH QUE DEVERIA SER SEARCHED (com um input() dentro do código python)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mas o meu resultado ficou errado, claro....
+
+
+
+
+
+
+
+
+
+
+
+O CERTO FICOU ASSIM:
+
+
+
+
+
+
+
+
+
+
+
+import os
+
+def delete_images(folder_path):
+    for root, dirs, files in os.walk(folder_path):
+        for file in files:
+            if file.endswith((".png", ".jpg")):
+                os.remove(os.path.join(root, file))
+
+# Usage example
+folder_path = input("Enter the folder path: ")
+delete_images(folder_path)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ALÉM DISSO,
+
+
+O PROFESSOR CONTROLOU O OUTPUT,
+
+COM 
+
+
+""JUST OUTPUT THE CODE SNIPPET, WITHOUT ANY EXTRA EXPLANATIONS"""....
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> O PROFESSOR ENTAO PEDE AO CHATGPT 
+
+""FORMAT THE CODE AND STYLE IT AS CODE"" --> aí ele entrega o code em 1 formato 
+
+mais legível...
+
+
+
+

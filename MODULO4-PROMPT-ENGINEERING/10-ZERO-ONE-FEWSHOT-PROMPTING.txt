@@ -1,0 +1,603 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> OK.... ATÉ AGORA, JÁ VIMOS 
+
+UM MONTE DE KEY IMPORTANT CONCEPTS DOS PROMPTS...
+
+
+
+
+
+
+
+
+SAO ELES:
+
+
+
+
+
+1) GOAL 
+
+
+
+
+
+
+
+2) CONTEXT (
+
+    ROLE + [EXTRA INFO AND CONSTRAINTS] + EXTRA INFO 
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OK.... ESSES SAO KEY CONCEPTS QUE DEVEMOS TER EM MENTE...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-> DEVEMOOS ADICIONAR CONTEXT, SIM,
+
+MAS ESSE CONTEXT 
+
+
+
+DEVE TER DIFERENTES FORMATOS,
+
+E CONTER 
+
+DIFERENTES PEDACOS DE INFO...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> MAS VC TAMBÉM DEVE TER  EM MENTE OUTRO ASPECTO IMPORTANTE 
+
+
+
+
+
+DE """"PROMPT ENGINEERING""""
+
+
+
+
+
+
+
+
+
+
+
+ESSE ASPECTO É 
+
+
+O 
+
+
+
+
+""ZERO-"",
+
+
+
+
+
+
+""ONE-""
+
+
+
+
+E 
+
+""FEWSHOT"" PROMPTING...
+
+
+
+
+
+
+
+--------------------
+
+
+
+
+
+
+
+
+
+O QUE É ISSO...
+
+
+
+
+
+
+
+
+
+
+
+
+--> ISSO PODE SOAR FANCY,
+
+MAS 
+
+QUER SIMPLESMENTE DIZER QUE 
+
+
+
+
+
+
+TALVEZ SEJA BOM PROVIDENCIAR 
+
+
+""""EXAMPLE OUTPUT SNIPPETS""""
+
+
+
+
+
+COMO PARTE DO SEU PROMPT... VC FAZ ISSO PARA 
+
+
+AJUDAR 
+
+O CHATGPT 
+
+
+A 
+
+
+FAZER SEU PRÓPRIO OUTPUT... -->  PQ ELE PEGA 
+
+
+
+O TONE, STYLE E CONTENT STRUCTURE 
+
+DOS SEUS  
+
+
+EXEMPLOS 
+
+
+PARA PRODUZIR 
+
+
+
+O NOVO OUTPUTL...
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+TEMOS 3 TIPOS, PORTANTO:
+
+
+
+
+
+
+
+
+
+
+
+
+
+""ZERO-SHOT PROMPTING"" -->  É O QUE FIZEMOS ATÉ AGORA....
+
+
+
+
+
+
+
+
+
+
+""ZERO-SHOT PROMPTING"" --> VOCE NAO PROVIDENCIA NENHUM EXEMPLO,
+
+
+
+
+
+E SÓ 
+
+COLOCA 1 PROMPT COMO 
+
+
+
+""WRITE A TWEET THAT EXPLAINS THE CORE IDEA 
+BEHIND CHATGPT""..
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> OU SEJA, VC SIMPLESMENTE 
+
+NAO ADICIONA NENHUM EXEMPLO AO PROMPT...
+
+
+
+
+
+
+
+
+
+EM MTOS USE-CASES E SCENARIOS,
+
+
+
+__ ISSO É ABSOLUTELY FINE...
+
+
+
+
+
+
+
+VIMOS ISSO COM OS EXERCICIOS QUE O PROFESSOR NOS DEU...
+
+
+
+
+
+
+
+
+
+
+
+
+--> MAS PARA ALGUNS USE-CASES E SCENARIOS,
+
+
+O PROVIDE DE EXEMPLOS AO CHATGPT PODE SER MT ÚTIL....
+
+
+
+
+
+
+
+
+
+
+
+EX:
+
+
+
+
+
+
+
+
+2) ONE-SHOT PROMPTING ...
+
+
+
+
+
+-> VOCE PROVIDENCIA 1 ÚNICO EXEMPLO...
+
+
+
+
+
+--> ""WRITE A TWEET THAT EXPLAINS THE CORE IDEA BEHIND CHATGPT. USE A SIMILAR
+TONE AND STRUCTURE AS I DO IN MY REGULAR TWEETS. BUT DONT USE THE CONTENT. HERE IS 
+AN EXAMPLE: ....""...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3) FEW-SHOT PROMPTING -->  NESSE TIPO, VC 
+
+PROVIDENCIA _ MÚLTIPLOS EXEMPLOS AO CHATGPT...
+
+
+
+
+--> ex: 
+
+
+--> ""WRITE A TWEET THAT EXPLAINS THE CORE IDEA BEHIND CHATGPT. USE A SIMILAR
+TONE AND STRUCTURE AS I DO IN MY REGULAR TWEETS. BUT DONT USE THE CONTENT. HERE IS 
+TWO EXAMPLE TWEETS: ....""...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mas vc nao deve exagerar... nao deve colocar mtos exemplos no seu prompt.. -> 
+
+pq 
+
+isso pode confundir 
+
+o 
+
+chatgpt,
+
+
+
+e levar a resultados piores...
+
+
+
+
+
+
+
+
+
+--> MAS ADICIONAR 
+
+
+
+EXEMPLOS PEQUENOS,
+
+CONCISOS,
+
+
+
+
+
+ISSO PODE AJUDAR 
+
+
+
+
+A GANHAR RESULTS MELHORES, EM ALGUNS SCENARIOS...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> POR EXEMPLO,
+
+
+
+O TWEET 
+
+
+
+
+
+
+
+DA CORE IDEA BEHIND CHATGPT...
+
+
+
+
+
+
+
+
+
+
+EX:
+
+
+
+
+
+WRITE A TWEET THAT EXPLAINS THE CORE IDEA BEHIND CHATGPT:
+
+
+
+
+
+
+ETC ETC ETC...
+
+
+
+
+
+
+
+
+
+
+
+
+--> PROFESSOR DIZ QUE O TWEET SE PARECE LEGAL,
+
+SIM,
+
+
+
+MAS NAO 
+
+PARECE QUE FOI O PROFESSOR QUE ESCREVEU,
+
+PQ NAO É O MESMO ESTILO DELE....
+
+
+
+
+
+
+
+
+-> SE QUISERMOS FAZER UMA IMITACAO DO NOSSO ESTILO DE ESCRITA,
+PODEMOS 
+
+USAR 
+
+
+""ONE-SHOT PROMPTING"",
+
+
+
+POR MEIO DO PROVIDE 
+
+DE 
+
+1 EXEMPLO AO CHATGPT... 1 EXEMPLO QUE O PROFESSOR ACTUALLY ESCREVEU.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> PARA FAZER O FINE-TUNE DO TONE E STYLE AINDA MAIS,
+
+PODEMOS USAR 
+
+O FEW-SHOT PROMPTING (
+
+    usar 2 example tweets....
+)
+
+
+
+
+
+
+
+
+
+COMO SEMPRE, VC VAI QUERER TWEAKAR AS RESPONSES DO 
+
+
+CHATGPT...
+
+
+
+
+
+
+

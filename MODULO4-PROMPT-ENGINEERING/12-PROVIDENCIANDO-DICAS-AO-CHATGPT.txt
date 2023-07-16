@@ -1,0 +1,302 @@
+
+
+
+
+
+
+
+
+
+
+
+--> OK... 
+
+
+
+
+
+
+RELACIONADO AOS CONCEITOS 
+
+DE 
+
+ONE-SHOT 
+
+
+E 
+FEWSHOT PROMPTING,
+
+
+E O PROVIDE DE TEMPLATES,
+
+
+
+
+
+
+
+HÁ OUTRO 
+
+
+__ CONCEITO QUE PODE LEVAR A RESULTADOS MELHORES, PELO MENOS EM ALGUNS 
+
+
+CASOS...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+É O CONCEITO DE CUES/HINTS 
+
+AO CHATGPT...
+
+
+
+
+
+
+
+
+
+
+
+POR EXEMPLO, DIGAMOS QUE QUEREMOS 
+
+
+QUE O 
+
+
+
+
+CHATGPT RESUMA 1 ARTIGO PARA NÓS...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-> PARA COMECAR, PODERÍAMOS USAR ESTE ROLE:
+
+
+
+
+
+
+
+
+""You are an AI Assistant that specializes on summarizing articles."" //ROLE (context)
+
+
+
+
+
+
+
+
+
+DEPOIS, COLOCAMOS O GOAL:
+
+
+
+
+
+
+""You are an AI Assistant that specializes on summarizing articles."" //ROLE (context)
+
+
+
+
+
+""Summarize the below article:"" (goal)
+
+
+
+
+
+
+
+COPIAMOS E COLAMOS O ARTICLE...
+
+
+
+
+
+
+
+
+
+POR FIM, ADICIONAMOS NOSSO CUE/HINT,
+
+TIPO ASSIM:
+
+
+
+
+
+
+
+
+
+
+""You are an AI Assistant that specializes on summarizing articles."" //ROLE (context)
+
+
+
+
+
+""Summarize the below article:"" (goal)
+
+
+
+xxxxxxxxxxxxxxx
+
+
+
+
+
+
+
+"
+Summarize the above article, starting like this:
+
+The key takeaways of the article are:
+
+- 
+
+"
+
+
+
+
+
+
+
+
+
+
+
+COM ISSO, COM ESSA PARTE FINAL,
+
+ADICIONAMOS 1 "DICA"" AO CHATGPT...
+
+
+
+
+
+
+
+
+-> ISSO BASICAMENTE DIZ AO CHATGPT COMO ELE DEVE COMECAR A RESPONSE...
+
+
+
+
+
+--> como o chatgpt é all about o predict de words e complete de sequences,
+
+
+ELE VAI TENTAR 
+
+_COMPLETAR _ ESSA SEQUENCE QUE O PROFESSOR PROVIDENCIOU....
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FICOU TIPO ASSIM:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+You are an AI Assistant that specializes on summarizing articles.
+
+Summarize the below article: 
+
+
+The idea of sending humans to Mars has been the subject of aerospace engineering and scientific studies since the late 1940s as part of the broader exploration of Mars. Some have also considered exploring the Martian moons of Phobos and Deimos.[1] Long-term proposals have included sending settlers and terraforming the planet. Proposals for human missions to Mars have come from e.g. NASA, European Space Agency, Boeing, and SpaceX. As of 2023, only robotic landers and rovers have been on Mars. The farthest humans have been beyond Earth is the Moon, under the Apollo program.
+
+Conceptual proposals for missions that would involve human explorers started in the early 1950s, with planned missions typically being stated as taking place between 10 and 30 years from the time they are drafted.[2] The list of crewed Mars mission plans shows the various mission proposals that have been put forth by multiple organizations and space agencies in this field of space exploration. The plans for these crews have varied—from scientific expeditions, in which a small group (between two and eight astronauts) would visit Mars for a period of a few weeks or more, to a continuous presence (e.g. through research stations, colonization, or other continuous habitation).[citation needed] By 2020, virtual visits to Mars, using haptic technologies, had also been proposed.[3]
+
+Meanwhile, the uncrewed exploration of Mars has been a goal of national space programs for decades, and was first achieved in 1965 with the Mariner 4 flyby. Human missions to Mars have been part of science fiction since the 1880s, and more broadly, in fiction, Mars is a frequent target of exploration and settlement in books, graphic novels, and films. The concept of a Martian as something living on Mars is part of the fiction.
+
+Summarize the above article, starting like this:
+
+The key takeaways of the article are:
+-
+
+ChatGPT
+The key takeaways of the article are:
+
+Mars exploration and sending humans to the planet have been a topic of interest in aerospace engineering and scientific studies since the late 1940s.
+Various organizations and space agencies, including NASA, European Space Agency, Boeing, and SpaceX, have proposed human missions to Mars, but as of 2023, only robotic landers and rovers have been sent to the planet.
+Conceptual proposals for crewed missions to Mars have been made since the early 1950s, with different plans ranging from scientific expeditions lasting a few weeks to continuous habitation and colonization.
+Uncrewed exploration of Mars began in 1965 with the Mariner 4 flyby, and the idea of Martian exploration and settlement has been a popular theme in science fiction since the 1880s.
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------
+
+
+
+QUER DIZER QUE PROVIDENCIAR CUES/HINTS AO CHATGPT 
+
+PODE SER 
+
+
+UMA TOOL IMPORTANTE PARA CONSEGUIR OS RESULTS DA FORMA QUE VC 
+
+
+QUER.. --> OU ENTAO PARA FAZER ELE FOCAR EM 1 CERTO ASPECTO DA TASK QUE VC 
+DEU A ELE...

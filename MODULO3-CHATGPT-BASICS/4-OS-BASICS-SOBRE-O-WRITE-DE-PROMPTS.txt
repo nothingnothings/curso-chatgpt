@@ -1,0 +1,782 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OK.... AO LONGO DESTE CURSO,
+
+JÁ TRABALHAMOS COM PROMPTS..
+
+
+
+
+
+
+
+
+
+
+
+PROMPT --> É O CHATGPT INPUT QUE DESCREVE O SEU PROBLEMA E REQUEST 
+QUE VC QUER 
+QUE 
+
+O 
+
+
+CHATGPT RESOLVA..
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ISSO QUER DIZER QUE 
+
+
+OS PROMPTS SAO A FEATURE MAIS IMPORTANTE QUE VC 
+
+
+DEVE CONHECER BEM, 
+
+
+PARA CONSEGUIR USAR O CHATGPT ADEQUADAMENTE...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-> NESSA LECTURE, O PROFESSOR QUER NOS MOSTRAR ALGUNS EXAMPLES 
+
+
+DE PROMPTS,
+
+PQ NO PRÓXIMO 
+
+
+
+
+MODULE VEREMOS PROMPT ENGINEERING... -> COMO ESCREVER PROMPTS,
+
+
+
+
+E COMO 
+
+
+
+
+FICAR COM 1 PROMPT PERFEITO...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MAS ESSA LECTURE É APENAS SOBRE OS BASICS DE PROMPTS..
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> PROMPS SOBRE BASIC FACTS....
+
+
+
+
+
+
+
+
+
+
+
+-> IMAGINE ESTE PROMPT:
+
+
+
+""HOW MANY CITIZENS DOES BARCELONA HAVE"""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ESSA É UMA SIMPLES ""FACT-BASED QUESTION"" -> O CHAT GPT SEMPRE 
+
+
+ESCLARECE SEU CUTOFF DAY (september 2021),
+
+
+
+
+
+E ENTAO 
+
+
+ELE 
+
+
+RETORNA O POPULATION COUNT, 
+
+DE ACORDO COM SEUS SOURCES...
+
+
+
+
+
+
+
+
+
+
+
+
+TEMOS OUTRAS FACT-BASED QUESTIONS:
+
+
+
+
+
+
+
+
+""WHO WAS THE FIRST PRESIDENT OF THE USA""...
+
+
+
+
+
+
+
+
+
+
+
+-> O CHATGPT RETORNA QUE GEORGE WASHINGTON FOI 
+
+O PRIMEIRO..
+
+
+
+
+
+
+
+
+
+
+
+
+--> ESSAS QUESTIONS 
+
+""NAO POSSUEM RELACAO" ENTRE SI,
+
+
+
+
+O QUE QUER DIZER QUE PODERÍAMOS AS ESCREVER 
+
+
+
+DENTRO 
+
+
+
+DE 1 MESMO CHAT...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-> ESSAS SAO QUESTIONS QUE PODERÍAMOS COLOCAR NO GOOGLE..
+
+
+
+
+
+
+-> MAS TODAS ESSAS QUESTIONS, NO GOOGLE,
+
+RESPODERÍAMOS AS MESMAS COISAS...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-> AGORA TEMOS OUTRAS FACT-RELATED QUESTIONS...
+
+
+
+
+
+
+
+
+
+-> DIGAMOS ESTA QUESTION, QUE É FACT-RELATED,
+
+MAS 1 POUCO DIFERENTE:
+
+
+
+
+
+
+
+""WHO IS MICHAEL JORDAN"" -->  A MAIOR PARTE 
+
+
+
+
+
+DE NÓS DIRIA 
+
+
+""IS A BASKETBALL PLAYER"""-------->  O CHAT GPT 
+
+TAMBÉM 
+
+FALA QUE 
+
+
+
+ELE É JOGADOR DE BASQUETE.... NADA DE NOVO SOBRE ISSO..
+
+
+
+
+
+
+
+
+
+
+
+-> O PROFESSOR ESTAVA PROCURANDO PELO MICHAEL JORDAN, SIM,
+
+
+
+
+MAS __ 
+
+
+O 
+CHATGPT 
+
+
+PENSOU NO MICHAEL JORDAN 
+
+
+
+PQ ELE ASSUME QUE 
+
+
+
+
+
+ESTAMOS PROCURANDO PELO JOGADOR DE BASQUETE...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-> SE PROCURÁSSEMOS O MJ NO GOOGLE,
+
+
+
+ENCONTRARÍAMOS OUTROS MJs,
+
+
+
+MAS O DE BASQUETE SERIA O RESULTADO PRINCIPAL...
+
+
+
+
+
+
+
+
+
+
+
+
+-> ISSO NAO É RUIM,
+
+
+
+MAS O CHATGPT RETORNA APENAS __ 1 ÚNICO RESULT...
+
+
+
+
+
+
+
+
+
+
+
+
+-_> MAS ESSES SAO SIMPLES ""FACT-BASED PROMPTS"""...
+
+
+
+
+
+
+
+
+
+
+--> MAS PODEMOS TAMBÉM USAR PROMPTS DE FORMA DIFERENTE,
+
+NO CHATGPT...
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> PQ O CHATGPT É _CONTEXT-AWARE -->  QUER DIZER QUE 
+
+ELE 
+
+SE 
+LEMBRA/SABE 
+
+
+
+OS TOPICS DISCUTIDOS ANTERIORMENTE,
+
+EM 1 MESMO CHAT...
+
+
+
+
+
+
+
+
+
+
+
+
+ISSO QUER DIZER QUE PODEMOS ESCREVER 
+
+PROMPTS TAMBÉM 
+
+
+
+CONSIDERANDO QUE 
+
+
+
+
+O __ GPT ESTÁ AWARE DAS COISAS QUE FORAM DISCUTIDAS 
+
+
+
+ANTERIORMENTE 
+
+NO CHAT..
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> POR EXEMPLO, QUANTO AOS CONTEXT-AWARE PROMPTS,
+PODERÍAMOS ESCREVER ASSIM:
+
+
+
+
+
+
+
+
+
+1) WHAT IS A WIENER SCHNITZEL --> É UMA COMIDA AUSTRÍACA...
+
+
+
+
+GANHARÍAMOS UMA ANSWER...
+
+
+
+ 
+
+
+
+
+
+
+
+
+-> DEPOIS DESSA ANSWER,
+
+PODERÍAMOS 
+
+ESCREVER:
+
+
+
+
+2) PLEASE GIVE ME THE RECIPE (sem mencionar o schnitzel...
+
+
+
+)
+
+
+
+
+
+
+
+
+
+--> O SCHNITZEL NAO É MENCIONADO,
+
+MAS COMO O GPT É CONTEXT-AWARE,
+
+ELE 
+SABE 
+
+
+QUE 
+
+ESTÁVAMOS 
+
+
+NOS REFERINDO AO SCHNITZEL..
+
+
+
+
+
+
+
+
+
+
+
+DEPOIS DISSO,
+PODERÍAMOS
+
+
+
+
+
+
+
+3) ""I NEED A SHOPPING LIST WITH ALL INGREDIENTS FOR THE RECIPE, BUT 
+I BOUGHT THE MEAT ALREADY"" --> O CHATGPT SABERÁ QUE É A RECIPE DO SCHNITZEL..
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+->         O PROFESSOR ESCREVE ESSES PROMPTS AÍ..
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----> OK.... COM O PRÓXIMO PROMPT,
+
+
+
+"""PLEASE GIVE ME THE RECIPE""",
+
+
+
+comecamos esse pattern de ""conversa'" com o chatgpt...
+
+
+
+
+
+
+
+
+
+
+-> O CHATGPT SE LEMBRA DO CONTEXT DA NOSSA CONVERSATION....
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+->  É ISSO QUE FAZ O GPT SER UMA GREAT TOOL -> PQ SE PARECE COM 
+
+HUMAN INTERACTION --> NAO TEMOS QUE NOS REPETIR,
+
+PQ 
+O 
+
+GPT SABE DO QUE ESTAMOS FALANDO.. -> MAS VC AINDA DEVE TER EM MENTE 
+
+QUE 
+
+ELE 
+
+É UM 
+
+LARGE LANGUAGE MODEL --> MAS ELE AINDA SE PARECE COM 1 HUMANO,
+
+E É MT INTUITIVO....
+
+
+
+
+
+
+
+
+
+
+-> NO PRÓXIMO PROMPT,
+
+
+
+
+ESCREVEMOS:
+
+
+
+
+
+
+
+
+
+
+
+...BUT I BOUGHT THE MEAT ALREADY...
+
+
+
+
+
+
+-> ISSO, NOVMAENTE, NOS DÁ ESSE STYLE DE CONVERSATION...
+
+
+
+
+
+
+
+
+
+
+-> O __ CHATGPT ""PRETENDS TO UNDERSTAND"" O QUE 
+
+QUEREMOS 
+
+TER,
+
+
+
+
+E AÍ 
+
+
+
+
+
+
+
+NOS DÁ 
+
+
+1 RECIPE PARA O MODEL ANTERIOR,
+MAS EXCLUINDO O MEAT...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+QUER DIZER QUE ESSAS SAO AS 2 DIFERENTES MANEIRAS DE ESCREVER 
+PROMPTS NO CHAT GPT:
+
+
+
+
+
+
+
+1) FORMATO GOOGLE (prompt tudo de uma vez)....
+
+
+
+
+
+
+
+
+2) FORMATO CONVERSATION (vamos conversando com o gpt, 
+
+1 coisa por vez, até conseguir o output desejado)..
+
+

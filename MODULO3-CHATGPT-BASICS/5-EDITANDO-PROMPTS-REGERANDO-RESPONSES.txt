@@ -1,0 +1,351 @@
+
+
+
+
+
+
+
+
+
+
+
+--> OK... QUANDO TRABALHAMOS COM PROMPTS,
+
+DEVEMOS SABER QUE PODEMOS ACTUALLY 
+
+
+
+__REGENERATE RESPONSES,
+
+
+
+E EDITAR PROMPTS..
+
+
+
+
+
+
+
+
+
+
+
+--> COM REGENERATE,
+
+
+A OUTPUT GENERATION RECOMECA...
+
+
+
+
+
+
+
+
+-> DIGAMO QUE A RESPOSTA QUE O CHAT GPT PROVIDENCIOU NAO FORAM SATISFATÓRIAS..
+
+
+
+
+
+
+
+
+-> BASTA CLICAR EM ""REGENERATE RESPONSE"",
+
+
+PARA VER SE O OUTPUT 
+
+
+FICA MELHOR...
+
+
+
+
+
+
+--> VC TAMBÉM PODE __ RE-EDITAR SEUS 
+
+PROMPTS ANTERIORES,
+
+
+
+
+PARA FAZER SAVE AND SUBMIT E 
+
+
+
+MUDAR AS RESPONSES 
+
+
+
+PELO CHATGPT...
+
+
+
+
+
+
+--> E FICAMOS COM 
+
+""2/2"" ----> OU SEJA,
+
+
+FICAMOS AO MESMO TEMPO 
+
+
+
+
+
+A ""CONVERSATION ANTERIOR""
+
+
+
+
+E A ""NOVA CONVERSATION"",
+
+
+
+
+COM O NOSSO EDIT.. (E COM AS RESPOSTAS SUBSEQUENTES)...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> MAS É IMPORTANTE ENTENDER QUE O CHATGPT 
+
+É APENAS 
+
+""cONTEXT-AWARE""
+
+
+
+
+EM RELACAO 
+
+A 
+
+1 ÚNICA ""LINHA-DO-TEMPO""/FLOW DE CONVERSATION...
+
+
+
+
+
+
+
+
+
+
+
+OU SEJA,
+
+SE VC ""BRANCHEAR"", COM 2 FLOWS DE CONVERSATION DIFERENTES (
+
+    por ter editado 1 prompt, no meio de sua conversa
+),
+
+
+
+
+
+ELE 
+
+
+SÓ VAI CONSIDERAR O CONTEXTO DA ""TAB"" EM QUE ESTAMOS, DENTRO 
+
+DESSA PRÓPRIA CONVERSA...
+
+
+
+
+
+
+
+ok... isso faz sentido...
+
+
+
+
+
+
+
+
+
+é uma feature + ou - útil..
+
+
+
+
+
+
+
+
+
+
+QUER DIZER QUE  ELE É APENAS CONTEXT-AWARE 
+
+EM RELACAO 
+
+
+AO 
+
+""CURRENTLY-DISPLAYED CHAT"",
+
+
+
+
+
+SENDO TOTALMENTE DESVINCULADO DOS CHATS (ou partes dos chats, nesse caso)
+
+QUE NAO ESTAO DISPLAYADOS NA TELA, NO MOMENTO....
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OK.... MAIS 2 COISAS SOBRE PROMPTS:
+
+
+
+
+
+
+
+
+1) SE ACIDENTALMENTE ENVIAMOS 1 PROMPT,
+
+OU SE NOS DAMOS CONTA QUE QUEREMOS EDITAR O PROMPT ANTES DE O ENVIAR,
+
+PODEMOS __INTERROMPER 
+
+
+A 
+GERACAO 
+
+DO OUTPUT, PARA AÍ EDITAR E ENVIAR DE NOVO...
+
+
+
+
+
+
+
+
+
+certo.... isso é útil...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2a coisa) FALANDO DE ACIDENTAL SEND DE PROMPTS,
+
+
+
+
+SE VC __ QUER _ ESCREVER 1 PROMPT CONTENDO PARÁGRAFOS,
+
+
+tipo assim:
+
+
+
+
+
+
+
+I need the following data:
+
+
+
+
+xxxxxx 
+
+
+
+
+
+
+
+
+
+
+
+
+-> SE VC PRECISA __ TER UM NOVO PARÁGRAFO,
+
+
+
+
+
+VC __ DEVE ESCREVER 
+
+
+
+""SHIFT + ENTER"" --> SHIFT ENTER VAI ADICIONAR 1 PARÁGRAFO,
+
+
+E AÍ 
+
+
+VC VAI PODER CONTINUAR ESCREVENDO SEU PROMPT, EM UMA NOVA LINHA...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OK... AGORA DEVEMOS ESTUDAR O OUTPUT DO CHATGPT.... -> PQ 
+
+
+ÀS VEZES ELE PODE TER DAR UNS OUTPUTS MEIO INÚTEIS....

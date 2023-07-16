@@ -1,0 +1,272 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> OK... NA ÚLTIMA LICAO,
+
+APRENDEMOS SOBRE 
+
+
+""ZERO-PROMPTING"" (prompts sem exemplos de escrita),
+
+ 
+""ONE-PROMPTING"" (prompts com 1 exemplo de escrita)
+
+E 
+
+
+""FEWSHOT-PROMPTING"" (prompts com 2 ou mais exemplos de escrita)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> VIMOS QUE PODEMOS SIMPLESMENTE ADICIOANR ALGUNS EXEMPLOS AOS NOSSOS PROMPTS,
+
+PARA AJUDAR O CHATGPT 
+
+A PRODUZIR PROMPTS...
+
+
+
+
+
+
+
+
+
+
+--> MAS TEMOS 
+
+
+UMA TECNICA RELACIONADA A ONE-SHOT 
+
+PROMPTING...
+
+
+
+
+
+
+
+
+
+
+--> E ESSA TÉCNICA 
+
+É ALL ABOUT 
+
+O _ PROVIDE DE 1 TEMPLATE__ 
+
+
+À RESPONSE GERADA PELO CHATGPT..
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> POR EXEMPLO, AQUI,
+
+
+O PROFESSOR QUER OBTER 1 LISTA 
+
+DE 
+
+5 
+
+GREAT TRAVEL DESTINATIONS PARA O VERAO:
+
+
+
+
+
+
+
+
+
+
+
+""""GIVE ME FIVE GREAT TRAVEL DESTINATIONS FOR THIS SUMMER.
+
+
+
+FORMAT YOUR RESPONSE LIKE THIS:
+
+
+
+
+Location: 
+Best time to visit:
+Avg. Temperature (Celsius):
+Hours of Sunshine:
+Rainy Days per Month:
+
+
+
+
+
+
+"""""
+
+
+
+
+
+
+
+COM ISSO, O PROFESSOR PROVIDENCIA 1 __ TEMPLATE __ AO CHAT GPT,
+
+
+
+PARA QUE ELE 
+
+
+
+
+TENHA 1 IDEIA DE COMO O OUTPUT DEVE SE PARECER...
+
+
+
+
+
+
+
+
+
+EX:
+
+
+
+
+GIVE ME FIVE GREAT TRAVEL DESTINATIONS FOR THIS SUMMER.
+
+
+
+FORMAT YOUR RESPONSE LIKE THIS:
+
+Location: 
+Best time to visit:
+Avg. Temperature (Celsius):
+Hours of Sunshine:
+Rainy Days per Month:
+
+ChatGPT
+Location: Santorini, Greece
+Best time to visit: June to September
+Avg. Temperature (Celsius): 25-30°C
+Hours of Sunshine: 12-14 hours
+Rainy Days per Month: 1-2 days
+
+Location: Kyoto, Japan
+Best time to visit: April to June, September to November
+Avg. Temperature (Celsius): 20-30°C
+Hours of Sunshine: 6-8 hours
+Rainy Days per Month: 9-12 days
+
+Location: Banff National Park, Canada
+Best time to visit: June to August
+Avg. Temperature (Celsius): 15-25°C
+Hours of Sunshine: 8-10 hours
+Rainy Days per Month: 8-10 days
+
+Location: Cape Town, South Africa
+Best time to visit: November to March
+Avg. Temperature (Celsius): 20-28°C
+Hours of Sunshine: 8-10 hours
+Rainy Days per Month: 5-7 days
+
+Location: Barcelona, Spain
+Best time to visit: May to July, September to October
+Avg. Temperature (Celsius): 20-30°C
+Hours of Sunshine: 9-11 hours
+Rainy Days per Month: 4-6 days
+
+These destinations offer a mix of cultural experiences, stunning landscapes, and beautiful weather during the summer months, making them perfect choices for your summer vacation. Enjoy your travels!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+E SEMPRE PODEMOS PEDIR AO GPT QUE ELE DEVE PROPORCIONAR A DATA EM CSV,
+
+JSON, QUALQUER OUTRA COISA...
+
+
+
+
+
+
+
+
+
+
+E O ADD DE 1 TEMPLATE, DEFINE DE 1 TEMPLATE DESSES,
+
+PODE SER CONSIDERADO TBM UM EXEMPLO DE 
+
+
+
+""ONE-SHOT PROMPTING""..
+
+
+
+
+
+
+
+
+
+
+
+quer dizer que o provide de 1 template pode ser outra adicao interessante aos seus 
+
+prompts, para vc conseguir responses exatamente no formato desejado...

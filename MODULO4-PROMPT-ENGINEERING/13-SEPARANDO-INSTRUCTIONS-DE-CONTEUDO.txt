@@ -1,0 +1,137 @@
+
+
+
+
+
+
+
+
+
+
+
+--> OK... NA ÚLTIMA LICAO, APRENDEMOS SOBRE CUES E HINTS,...
+
+
+
+
+
+
+
+
+
+
+-. O PROFESSOR HAVIA PEDIDO AO CHATGPT QUE 
+ELE 
+
+
+
+RESUMISSE 1 ARTIGO BEM LONGO...
+
+
+
+
+
+
+
+
+E TUDO DEU CERTO..
+
+
+
+
+
+
+
+
+
+
+MAS ÀS VEZES, QUANDO PASSAMOS 
+
+
+
+
+LONGAS 
+
+STRINGS DE CONTENT,
+
+
+
+
+JUNTO DE __ SUAS INSTRUCTIONS EM RELACAO ÀQUELE CONTENT,
+
+
+
+
+
+
+
+
+O CHATGPT PODE TER ALGUNS PROBLEMAS DIFERENCIANDO O CONTENT 
+
+
+EM QUE 
+ELE DEVE TRABALHAR EM RELACAO A SUAS INSTRUCTIONS..
+
+
+
+
+
+
+
+
+
+
+
+
+EM CASOS COMO ESSES,
+
+
+
+VC 
+
+
+
+_ PODE  SEPARAR O """MAIN CONTENT"""(target do chatgpt, em que ele deve trabalhar)
+
+
+
+
+
+
+DE __ SUAS _MAIN INSTRUCTIONS,
+
+
+
+
+
+
+
+
+BASTA __ WRAPPAR O SEU CONTENT 
+
+
+
+
+
+COM 
+
+
+""" (1 identifier),
+
+
+
+
+
+
+
+
+
+
+
+1 identifier que TIPICAMENTE NAO OCORRA 
+
+
+NAS SUAS INTRUCTIONS 
+
+
+OU NO TEXT EM SI...

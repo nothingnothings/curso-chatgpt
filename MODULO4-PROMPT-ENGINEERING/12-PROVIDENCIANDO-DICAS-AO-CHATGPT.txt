@@ -300,3 +300,104 @@ UMA TOOL IMPORTANTE PARA CONSEGUIR OS RESULTS DA FORMA QUE VC
 
 QUER.. --> OU ENTAO PARA FAZER ELE FOCAR EM 1 CERTO ASPECTO DA TASK QUE VC 
 DEU A ELE...
+
+
+
+
+
+
+
+
+
+
+TIPO ASSIM:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+You are an AI Assistant that specializes on summarizing articles.
+
+Summarize the below article: 
+
+"""
+The idea of sending humans to Mars has been the subject of aerospace engineering and scientific studies since the late 1940s as part of the broader exploration of Mars. Some have also considered exploring the Martian moons of Phobos and Deimos.[1] Long-term proposals have included sending settlers and terraforming the planet. Proposals for human missions to Mars have come from e.g. NASA, European Space Agency, Boeing, and SpaceX. As of 2023, only robotic landers and rovers have been on Mars. The farthest humans have been beyond Earth is the Moon, under the Apollo program.
+
+Conceptual proposals for missions that would involve human explorers started in the early 1950s, with planned missions typically being stated as taking place between 10 and 30 years from the time they are drafted.[2] The list of crewed Mars mission plans shows the various mission proposals that have been put forth by multiple organizations and space agencies in this field of space exploration. The plans for these crews have varied—from scientific expeditions, in which a small group (between two and eight astronauts) would visit Mars for a period of a few weeks or more, to a continuous presence (e.g. through research stations, colonization, or other continuous habitation).[citation needed] By 2020, virtual visits to Mars, using haptic technologies, had also been proposed.[3]
+
+Meanwhile, the uncrewed exploration of Mars has been a goal of national space programs for decades, and was first achieved in 1965 with the Mariner 4 flyby. Human missions to Mars have been part of science fiction since the 1880s, and more broadly, in fiction, Mars is a frequent target of exploration and settlement in books, graphic novels, and films. The concept of a Martian as something living on Mars is part of the fiction.
+
+"""
+
+Summarize the above article, starting like this:
+
+The key takeaways of the article are:
+-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CERTO.... ISSO FAZ TOTAL SENTIDO...
+
+
+
+
+
+
+ISSO AJUDA O CHATGPT A SEPARAR 
+
+
+A PARTE DO PROMPT QUE É AS INSTRUCTIONS,
+
+E A PARTE QUE É O ARTICLE...
+
+
+
+
+
+
+
+
+
+
+É CLARO QUE O CHATGPT NAO PENSA.... MAS COLOCAR ESSES IDENTIIFERS 
+
+
+
+
+AJUDA A FORCAR O GPT A COMPLETAR A SEQUENCIA DE MANEIRA CORRETA... -> É UMA 
+
+TRICK QUE 
+
+ÀS VEZES PODE 
+
+_PROVIDENCIAR 
+
+RESULTS MELHORES DO QUE 
+
+ENVIAR O PROMPT SEM ESSE SEPARATOR...

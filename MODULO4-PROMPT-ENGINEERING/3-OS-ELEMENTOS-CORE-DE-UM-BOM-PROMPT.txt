@@ -1,0 +1,664 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> OK.... MAS COMO ESCREVEMOS BONS PROMPTS,
+
+CHATGPT PROMPTS...
+
+
+
+
+
+
+
+
+
+
+
+-> NO FINAL DAS CONTAS,
+
+
+TODOS BONS PROMPTS CONSISTEM DE 2 ELEMENTOS:
+
+
+
+
+
+
+
+
+1) O GOAL EM SI 
+
+
+
+
+
+
+
+
+2) CONTEXTO (ADDITIONAL INFORMATION)...
+
+
+
+
+
+
+
+
+
+
+
+
+TODOS SAO ASSIM...
+
+
+
+
+
+
+
+
+
+-> ESSA INFO, O COMPONENTE 2 ,
+
+
+
+AJUDA O CHATGPT A PRODUZIR 1 OUTPUT MELHOR 
+
+
+
+PARA O GOAL QUE VC ESPECIFICOU..
+
+
+
+
+
+
+
+
+
+
+
+
+
+-> MAS É CLARO QUE ESSA PARTE DO ""CONTEXT"""
+
+
+
+
+PODE __ SER _ACTUALLY _BROKEN UP EM 
+
+
+2 TIPOS SEPARADOS DE CONTEXT...
+
+
+
+
+
+
+ 
+
+ TEMOS 2 TIPOS DE ""EXTRA INFO""...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PQ É BEM COMUM, PARA MTOS PROMPTS,
+
+
+VC ADICIONAR 1 
+
+"""""ROLE'"""" A UM PROMPT... 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> ou seja,
+
+VC ASSIGNA 1 __ ROLE __ AO CHATGPT... -> OU SEJA,
+
+
+
+
+VC FAZ COM QUE O CHATGPT DEIXE DE SER O ""DEFAULT AI ASSISTANT"",
+
+
+
+E SIM 
+
+É _ ALGO MAIS ESPECÍFICO,
+
+
+OUTRA PESSOA, DEFINIDA POR NÓS...
+
+
+
+
+
+
+
+
+
+
+
+
+
+---> POR EXEMPLO:
+
+
+
+
+
+
+SE QUEREMOS QUE O CHATGPT CRIE 1 TWEET HIGHLY ENGAGING,
+
+
+QUE PODERÍAMOS POSTAR NO TWITTER,
+
+
+
+
+PODEMOS ESCREVER ASSIM:
+
+
+
+
+
+
+
+
+
+
+
+
+""Write a tweet about hiking."" --> ESSE É O __ GOAL___...
+
+
+
+
+
+
+
+
+
+DEPOIS DO GOAL, PRECISAMOS DO __ CONTEXT_....
+
+
+
+
+--> E NÓS INSERIMOS O __ ROLE__ DENTRO DESSE CONTEXT,
+
+
+
+
+
+COM FRASES COMO ESTA:
+
+
+
+
+
+
+
+
+
+
+""""You are an experienced Twitter user, known for posting highly engaging 
+tweets that lead users to like or retweet the posted tweets."""
+
+""Write a tweet about hiking."""
+
+
+
+
+
+
+
+
+
+
+
+--> VOCE TIPICAMENTE ESPECIFICA ESSE ROLE _ _aNTES__ DE ESPECIFICAR 
+O SEU GOAL...
+
+
+
+
+
+
+
+--> E, NESSE EXTRA ROLE,
+
+VC PODE DIZER AO CHATGPT __ COMO __ ELE DEVE SE COMPORTAR (
+
+     
+     OU SEJA, VC FORNECE AO CHATGPT EXTRA CONTEXT,
+
+     QUE ELE VAI USAR PARA _ _GERAR _ O RESULT,
+
+     O OUTPUT...
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> É CLARO QUE ADICIONAR 1 
+
+""""ROLE"""""
+
+EXTRA AO SEU PROMPT É 
+
+ALGO TOTALMENTE OPCIONAL,
+
+
+
+_ E DEFINITIVAMENTE NAO É NECESSÁRIO EM TODOS PROMPTS --> EM MTOS CASOS,
+
+
+ADICIONAR 1 DESSES ROLES EM 1 PROMPT É ALGO DESNECESSÁRIO,
+
+OU NAO FAZ SENTIDO...
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> POR EXEMPLO, SE VC ESTIVER PESQUISANDO 
+
+
+
+AO CHATGPT 
+
+
+QUAL É O 16TH president of the USA,
+
+
+
+
+
+
+VOCE NAO PRECISA 
+
+
+FORNECER 1 ROLE,
+
+PQ É UMA """FACT-BASED QUESTION"",
+
+
+
+
+E A EXISTENCIA DE 1 ROLE É DESNECESSÁRIA... (A QUESTION EM SI JÁ BASTA)..
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MAS PARA ALGUNS PROMPTS,
+
+COMO ESTE DO HIKING,
+
+
+
+ADICIONAR ROLES PODE FAZER SENTIDO...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-->  AGORA, ALÉM DO ADD DE 1 ROLE OPCIONAL DESSES,
+
+
+
+VCC __ PODE __ ADICIONAR TAMBÉM 
+
+
+
+
+
+
+""EXTRA CONSTRAINTS""",
+
+
+
+INFORMACAO EXTRA AO SEU PROMPT...
+
+
+
+
+
+
+
+
+
+
+
+QUER DIZER QUE O FORMATO COMPLETO É ASSIM:
+
+
+
+
+
+
+
+
+
+1) CONTEXT = ROLE + CONSTRAINTS E EXTRA INFORMATION + INFO 
+
+
+
+
+
+
+
+2) GOAL 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> CONSTRAINTS E EXTRA INFO _ 
+
+SÃO 1 COMPONENTE OPCIONAL DO SEU PROMPT,
+
+
+MAS SAO ALTAMENTE RECOMENDADOS... -> PQ ADICIONAR CONSTRAINTS 
+
+E 
+
+EXTRA 
+
+INFO 
+
+
+
+QUASE SEMPRE DEIXA SEUS PROMPTS MELHORES...
+
+
+
+
+
+
+
+
+
+
+
+-> SUAS RESPONSES FICAM MELHORES...
+
+
+
+
+
+
+
+
+
+
+
+
+--> ISSO PQ __ ""ROLES"", ""CONSTRAINTS"" E ""EXTRA INFO"" 
+
+
+SAO ALL ABOUT 
+
+""__PROVIDENCIANDO MAIS CONTEXT, CONTEXT ÚTIL""...
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> POR EXEMPLO, O PROFESSOR ESCREVE, AGORA:
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+""""You are an experienced Twitter user, known for posting highly engaging 
+tweets that lead users to like or retweet the posted tweets."""  ////ROLE
+
+""Write a tweet about hiking."""            /////GOAL
+
+
+"""THE TWEET SHOULD USE NO MORE THAN 2 EMOJIS AND TARGET NATURE ENTHUSIASTS. IT SHOULD 
+HIGHLIGHT TWO ADVANTAGES OF GOING ON A HIKE REGULARLY.""""  ////CONSTRAINTS AND EXTRA INFO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> COM ISSO, DEIXAMOS O PROMPT BEM MELHOR...
+
+
+
+
+
+
+
+
+--> O TWEET TAMBÉM DEVE HIGHLIGHTAR 
+
+2 
+
+ADVANTAGES...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- COMO RESULTADO DISSO,
+
+O PROFESSOR GANHA ESTE TWEET:
+
+
+
+
+
+
+
+
+
+🌲 Nature's calling! 🦶 Hiking not only strengthens our bond 
+with Mother Earth, but it also boosts our mental & physical health.
+Let's embrace the trails and breathe in the magic of the great outdoors! 
+#HikingAdventures #NatureLovers #GetOutside 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> OK... COM ISSO, FICAMOS COM 1 TWEET BEM ÚTIL... E QUE 
+
+CLARAMENTE TARGETTA 
+
+NATURE ENTHUSIASTS...
+
+
+
+
+
+
+--> VEREMOS MAIS EXEMPLOS,
+
+MAS A IDEIA 
+
+GERAL É SEMPRE ESSA:
+
+
+
+
+
+
+
+
+1) GOAL --> O GOAL, SIMPLES...
+
+
+
+
+
+
+
+
+
+2) CONTEXT ---> ROLE + CONSTRAINTS E EXTRA INFO + GENERAL INFO...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-> CADA PROMPT FICA MELHOR QUANDO ADICIONAMOS 
+
+
+EXTRA CONTEXT..
+
+
+
+
+
+
+
+-> E __ CONTEXT _ EXTRA PODE SER ADICIONADO POR MEIO DE ROLES (
+    QUE ÀS VEZES FAZEM SENTIDO
+),
+
+E POR MEIO DO ADD DE INFO E CONSTRAINTS EXTRAS (QUE QUASE SEMPRE SÃO ÚTEIS)...
+
+
+

@@ -1,0 +1,83 @@
+
+
+
+
+
+
+
+
+ALÉM DE PEDIR AO CHATGPT QUAL INFO PODE MELHORAR 1 RESULT,
+
+
+VC 
+
+
+PODE 
+
+
+PEDIR 
+
+AO CHATGPT QUE 
+
+ELE CRITIQUE/EVALUATE/IMPROVE 
+
+A ELE MESMO...
+
+
+
+
+
+
+
+
+
+-> VC PODE PEDIR AO CHATGPT 
+
+
+""O QUE PODERIA SER MELHORADO,
+
+
+DE ESSE TWEET QUE VC ME ESCREVEU AGORA""..
+
+
+
+
+
+
+
+
+
+EX:
+
+
+
+
+
+""Write a tweet about the advantages of JavaScript""
+
+
+
+
+
+
+
+-> depois,
+ 
+ escrevemos 
+
+ ""What could be improved, about this tweet that you just wrote""...
+
+
+
+
+
+
+ """Can this tweet be improved? If yes, how? Also apply any improvement 
+ potential you identify""...
+
+
+
+
+
+
+

@@ -1,0 +1,286 @@
+
+
+
+
+
+
+
+
+
+
+
+
+--> OK... AGORA QUE OLHAMOS A LADDERING TECHNIQUE,
+
+
+QUE É ESTA:
+
+
+
+
+
+
+
+TIPO ASSIM:
+
+
+
+
+
+
+""We need a complete NodeJS REST 
+API that handles user authentication and then 
+supports different routes for creating events,
+reading events, deleting events and updating 
+events. All routes except for the 'read events'
+route should be protected and only acessible 
+by authenticated users. Data must be exchanged formatted 
+as JSON and stored in a MongoDB database on the backend""...
+
+
+
+
+VIRA 
+
+
+
+
+
+PROMPT 1:
+
+
+Set up a basic NODEJS API with the following endpoints...
+
+
+
+
+
+
+
+
+PROMPT 2: 
+
+Connect a MONGODB database and set up event e user models 
+
+
+
+
+
+
+PROMPT 3:
+
+
+ADD THE LOGIC FOR SIGNING USERS UP AND LOGGING USERS IN 
+
+
+
+
+
+
+PROMPT 4:
+
+
+ADD THE LOGIC FOR HANDLING EVENTS 
+
+
+
+
+
+PROMPT 5: PROTECT THE NON-READ EVENT ROUTES AGAINST 
+
+UNAUTHENTICATED ACCESS.
+
+
+
+
+
+
+
+
+
+
+
+
+--> em vez disso, 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> PODERÍAMOS CONTINUAR AO LONGO DESSA 
+
+
+ESTRADA,
+
+FALANDO HORAS E HORAS SOBRE 
+
+PROMPTING TECHINQUES...
+
+
+
+
+
+
+
+
+
+
+
+MAS, NO FINAL DAS CONTAS,
+
+A ESTRUTURA SEMPRE SERÁ:
+
+
+
+
+
+
+
+
+
+1) GOAL 
+
+
+
+2) EXTRA CONTEXT...
+
+
+
+
+
+
+
+
+
+
+
+
+
+NAO INTERESSA SE NESSE EXTRA CONTEXT VC 
+
+
+QUER __ PROVIDENCIAR MAIS INFO SOBRE 
+
+A TARGET AUDIENCE OU SOBRE COMO 
+
+O 
+
+OUTPUT DEVE SER FORMATTADO,
+
+
+OU SE 
+VC 
+
+QUER 
+
+
+QUE 
+
+
+O CHATGPT 
+
+
+
+
+TOME ""EXTRA CONTEXTUAL INFO""
+
+EM CONSIDERACAO.. 
+
+
+
+VC SEMPRE VAI USAR ESSES 2 BUILDING BLOCKS...
+
+
+
+
+
+
+
+
+
+
+MAS É IMPORTANTE SABER ESSES 
+
+EXTRA PIECES OF INFO QUE VC PODE APLICAR,
+
+
+COMO O APPROACH DE 
+
+""ASK-BEFORE-ANSWER""...
+
+
+
+
+
+
+
+
+
+
+
+--> MAS A COISA NICE SOBRE O CHATGPT 
+
+É QUE 
+
+
+VC PODE PEDIR A ELE MESMO 
+
+__ MAIS _ PROMPTING TECHNIQUES...
+
+
+
+
+
+
+
+
+
+
+
+--> TIPO ASSIM:
+
+
+
+
+
+
+You are an experience ChatGPT user. You aim to write the best 
+possible prompts in order to get the best possible results from ChatGPT;
+
+Give me a list of 10 useful ChatGPT prompting techniques.
+
+Describe the technique and provide a short example for every prompting technique.
+Here's an example technique:
+
+Contextual prompting: Add extra information on cultural, historical or situational 
+factors that should be taken into account as part of the response.
+
+
+
+
+
+
+
+
+-------------------------------------

@@ -1,0 +1,328 @@
+
+
+
+
+
+
+--> OUTRA TECNICA ESPECIAL É 
+
+""LADDERING PROMPTING""...
+
+
+
+
+
+
+
+
+
+
+
+A IDEIA É ""BREAK-DOWN"" 
+
+
+1 PROBLEMA COMPLEXO,
+
+
+1 PROBLEMA QUE EXIGIRIA 
+
+
+1 
+
+
+PROMPT SUPER LONGO E COMPLEXO,
+
+TIPO ASSIM:
+
+
+
+
+
+
+
+
+
+
+
+
+""We need a complete NodeJS REST 
+API that handles user authentication and then 
+supports different routes for creating events,
+reading events, deleting events and updating 
+events. All routes except for the 'read events'
+route should be protected and only acessible 
+by authenticated users. Data must be exchanged formatted 
+as JSON and stored in a MongoDB database on the backend""...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> 1 PROBLEMA SUPER COMPLEXO... --> ISSO PODE FAZER COM QUE 
+
+O 
+
+CHATGPT PERCA O CONTEXTO/INFO E PRODUZA 1 SUBOPTIMAL RESPONSE...
+
+
+
+
+
+
+
+
+
+
+-> PARA RESOLVER ISSO,
+
+
+
+PARA CONSEGUIR RESOLVER PROBLEMAS SUPER COMPLEXOS,
+
+
+
+FREQUENTEMENTE A MELHOR OPCAO É __ SPLITTAR_ _ 
+
+ESSE PROMPT EM 
+
+MÚLTIPLOS PROMPTS,
+MENORES,
+
+
+
+
+QUE ENTAO VC VAI ENVIAR ""STEP-BY-STEP""
+
+
+AO CHAT GPT... --> PARA CONSEGUIR 
+
+
+
+SOLUTIONS A DIFERENTES PROMPTS,
+
+MENORES,
+
+QUE 
+VC 
+
+PODE 
+
+
+
+COMBINAR, MANUALMENTE,
+
+PARA CONSTRUIR 
+
+ESSE NODEJS APP...
+
+
+
+
+
+
+
+
+TIPO ASSIM:
+
+
+
+
+
+
+""We need a complete NodeJS REST 
+API that handles user authentication and then 
+supports different routes for creating events,
+reading events, deleting events and updating 
+events. All routes except for the 'read events'
+route should be protected and only acessible 
+by authenticated users. Data must be exchanged formatted 
+as JSON and stored in a MongoDB database on the backend""...
+
+
+
+
+VIRA 
+
+
+
+
+
+PROMPT 1:
+
+
+Set up a basic NODEJS API with the following endpoints...
+
+
+
+
+
+
+
+
+PROMPT 2: 
+
+Connect a MONGODB database and set up event e user models 
+
+
+
+
+
+
+PROMPT 3:
+
+
+ADD THE LOGIC FOR SIGNING USERS UP AND LOGGING USERS IN 
+
+
+
+
+
+
+PROMPT 4:
+
+
+ADD THE LOGIC FOR HANDLING EVENTS 
+
+
+
+
+
+PROMPT 5: PROTECT THE NON-READ EVENT ROUTES AGAINST 
+
+UNAUTHENTICATED ACCESS.
+
+
+
+
+
+
+
+
+
+
+
+
+--> em vez disso, comecamos pedindo uma api básica, com 4 endpoints...
+
+
+
+
+
+
+
+
+um exemplo básico é este:
+
+
+
+
+
+
+
+
+Set up a basic NodeJS REST API with the following endpoints:
+
+
+- GET /events (returns a list of events)
+- POST /events (should get title, description, image url)
+- DELETE /events/<id> (deletes the event by id)
+- PATCH /events/<id> (should get updated title, description, image url)
+
+
+Only add very simple dummy code for those different endpoints. The first 
+step is just about setting up the general API + endpoints.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> ESSA LADDERING TECHNIQUE PODE SER ÚTIL PARA QUAISQUER 
+
+PROBLEMAS MAIS COMPLEXOS...
+
+
+
+
+
+
+--> COMO PRÓXIMA ETAPA, PODERÍAMOS ESCREVER ASSIM:
+
+
+
+
+
+
+As a next step, add a MongoDB database.
+
+Add the code for connecting to the database and set up a 
+"Event" and "User" models (in separate files) that can 
+be used later.
+
+
+
+
+
+
+COMO ESTAMOS FAZENDO TUDO ISSO EM 1 MESMA CONVERSA,
+
+AS OLD MESSAGES AINDA SAO TODAS ELAS LEVADAS EM CONSIDERACAO 
+
+PELO CHATGPT... quer dizer que ele ainda as tem como context,
+
+
+
+que ele vai usar para resolver os próximos problemas --> isso deixa 
+
+essa laddering technique bem efetiva...
+
+
+
+
+
+
+
+
+
+
+
+--> O OBJETIVO DESSA LICAO ERA NOS CONSCIENTIZAR SOBRE ESSA 
+
+LADDERING TECHNIQUE,
+
+
+
+
+PARA CASOS EM QUE 
+
+TEMOS 
+
+PROBLEMAS MT COMPLEXOS QUE QUEREMOS QUE O 
+
+
+CHATGPT 
+RESOLVA (
+
+    MELHOR DIVIDIR O PROBLEMA EM MÚLTIPLAS PERGUNTAS/PROBLEMAS,
+    EM VEZ 
+
+    DE PEDIR TUDO DE UMA VEZ, AO CHAT GPT...)

@@ -1,0 +1,114 @@
+
+
+
+
+
+
+
+
+-> OK... AGORA OUTRA PROMPTING TECHNIQUE PODE SER ÚTIL,
+
+
+PARA CERTOS PROMPTS,
+
+É EMOTIONAL PROMPTING..
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> A IDEIA, AQUI, É QUE 
+
+A RESPONSE GERADA PELO CHATGPT DEVE 
+
+
+__cONSIDERAR __ O ESTADO EMOCIONAL/TOM DA QUERY DO USER...
+
+
+
+
+
+
+
+
+EX:
+
+
+
+
+
+""Write an email response to the follower customer
+complaint:
+
+''Your products are garbage. The new chair broke 1 day after 
+it was shipped. You'll hear from my lawyer''...
+
+
+
+""When drafting the response, take the sentiment and tone of the 
+customer into account""..
+
+
+
+
+
+
+
+
+
+
+--------> AQUI, SE VC USAR O EMOTIONAL PROMPTING,
+
+ESTAMOS DIZENDO AO CHAT GPT QUE ELE DEVE LEVAR O SENTIMENTO 
+
+DO USER EM CONSIDERACAO,
+QUANDO 
+
+ESCREVER 
+
+
+A
+ RESPONSE (
+
+
+
+    E É POSSÍVEL QUE O CHATGPT FACA ISSO 
+
+    PARA NÓS, SEM NEM MESMO DIZER,
+
+    MAS 
+
+
+    __ESPECIFICAR ISSO EXPLICITAMENTE AO CHATGPT,
+    dizer que o customer está puto,
+    pode ser uma boa ideia,
+
+
+    e pode nos salvar 1 extra follow-up message que 
+    teríamos de escrever, otherwise...
+ )
+
+
+
+
+
+
+
+
+
+ -----> COM ISSO, CONSEGUIMOS UMA RESPONSE DE DESCULPAS 
+
+
+ ÀQUELE CUSTOMER...

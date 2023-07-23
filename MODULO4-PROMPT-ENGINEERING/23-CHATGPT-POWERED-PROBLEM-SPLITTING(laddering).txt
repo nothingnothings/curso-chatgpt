@@ -1,0 +1,128 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+O LADDERING PROMPTING É ÚTIL,
+
+SIM...
+
+
+
+
+
+
+
+
+
+--> É ÚTIL PARA DIVIDIR PROBLEMAS MAIS COMPLEXOS/MAIORES 
+
+EM VÁRIAS TASKS/PROBLEMAS...
+
+
+
+
+
+
+
+
+
+
+--> É CLARO QUE PODEMOS FAZER ESSE SPLIT POR CONTA PRÓPRIA,
+
+MAS TAMBÉM PODEMOS USAR 
+
+O CHATGPT 
+
+PARA SPLITTAR 1 DESSES PROBLEMA...
+
+
+
+
+
+
+
+
+
+TIPO ASSIM:
+
+
+
+
+
+
+
+
+Help me create a blog post about the internal workings of ChatGPT by providing 
+a list of important keywords.
+
+The blog post should describe which models get used internally by ChatGPT.
+It should explain how those models were trained. All key concepts 
+should be explained for a non-expert target audience.
+
+
+Split this task into multiple steps, and then start with the first step.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> PEDIMOS AO CHATGPT QUE ELE SPLITTE ESSA TASK,
+
+
+
+E QUE AÍ COMECE POR 1 PRIMEIRA STEP....
+
+
+
+
+
+
+
+
+
+ESSA TECNICA PODE SER SUPER POWERFUL,
+
+
+
+
+
+PQ QUER DIZER QUE VC NAO PRECISA PENSAR 
+
+
+
+TANTO TEMPO SOBRE 1 COMPLEX PROBLEM,
+
+PQ 
+
+VC 
+
+PODE USAR 
+
+
+
+
+O CHATGPT PARA SPLITTAR ESSE PROBLEMA,
+
+CRIAR 1 SPLIT QUE VC NAO TERIA PENSADO POR CONTA PRÓPRIA...

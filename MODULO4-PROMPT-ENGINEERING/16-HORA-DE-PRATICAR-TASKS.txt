@@ -1,0 +1,369 @@
+
+
+
+
+
+
+
+
+
+agora com essas PROMPTING TECHNIQUES 1 POUCO MAIS AVANCADAS COMPREENDIDAS,
+
+DEVEMOS 
+
+
+VER MAIS ALGUNS EXEMPLOS..
+
+
+
+
+
+
+
+
+
+
+O PROFESSOR CRIOU 1 PUNHADO DE TASKS QUE 
+VC 
+
+
+
+PODE REALIZAR...
+
+
+
+
+
+
+--> DEVEMOS TENTAR FAZÊ-LAS POR CONTA PRÓPRIA,
+
+ANTES DE VER A SOLUCAO DO PROFESSOR....
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> AS TASKS SAO:
+
+
+
+
+
+
+
+
+
+
+1) CREATE A MODERN, MINIMAL CV WEBSITE SHOWING YOUR IMAGE 
+AND BELOW THAT A LIST OF YOUR WORKING EXPERIENCE & SKILLS 
+
+(
+    define Structure e target output (HTML + CSS)
+)
+
+
+
+
+
+
+EX:
+
+You are an experienced web developer, with years of developing Portfolio websites.
+You were asked by a friend to develop a Minimal CV Website showing:
+
+- His image 
+- A bullet point, CSS-styled, list of his working experience, in a timeline format
+- A bullet point, CSS-styled, list of his skills
+
+
+
+Your goal is to write the HTML and CSS code of that website.
+
+
+The site must be made of a single page and must be compatible with most browser used today. 
+
+
+
+
+
+
+
+
+
+
+
+
+2) Write a newsletter email that mentions two new posts 
+on your website 
+
+
+(Use Ask-before-answer prompting)
+
+
+
+You are an experienced web developer, with years of developing websites.
+
+Your goal is to write a newsletter email that mentions two new posts on a friend's website 
+about cars. 
+
+Before answering, I want you to first ask for any extra information that 
+helps you produce a better answer. If you got no questions, please provide the 
+answer instead.
+
+
+
+You: Before I start writing the newsletter email, could you provide some extra information to make it more personalized and engaging?
+
+You: What is your friend's website about? Is it a general automotive website, a specific car brand site, or focused on a particular aspect of cars (e.g., maintenance, reviews, modifications)?
+
+You: Could you provide the titles or brief summaries of the two new posts your friend has published? This will help me tailor the email content to the specific topics.
+
+You: Do you have any preferences for the tone or style of the email? Should it be formal, casual, or somewhere in between?
+
+You: Is there a specific target audience for the newsletter? For example, car enthusiasts, professionals in the automotive industry, or general readers interested in cars?
+
+User: 1. It's a website focused on car maintenance
+User: 2. "Taking proper care of your tires" and "Which helmet to use with your motorcycle"
+User: 3. The tone should be between casual and formal
+User: 4. The target audience is mainly car enthusiasts
+
+You: Subject: New Posts on [Friend's Website]: Car Maintenance Tips and Motorcycle Helmet Guide!
+
+Hey [Subscriber's Name],
+
+We hope you're enjoying your automotive journey and keeping your ride in top-notch condition! We're excited to share some valuable insights from our friend's website, all about car maintenance and motorcycle gear. Whether you're a seasoned car enthusiast or a newcomer to the world of wheels, there's something for everyone in these latest posts.
+
+1. Taking Proper Care of Your Tires
+Your tires are the only thing between your car and the road, so it's crucial to give them the care they deserve. In this informative post, our friend dives into essential tips on tire maintenance. Learn about tire pressure, tread depth, rotation, and other essential practices to ensure your tires perform at their best, keeping you safe and extending their lifespan. Check it out [here](link-to-tire-care-post).
+
+2. Which Helmet to Use with Your Motorcycle
+Calling all two-wheel enthusiasts! Choosing the right helmet is not just about style, it's a matter of safety. Our friend has put together a comprehensive guide to help you find the perfect helmet that fits both your head and your riding needs. Discover the different helmet types, safety standards, and other essential factors to consider before hitting the open road on your motorcycle. Don't miss this important guide, [click here](link-to-helmet-guide-post).
+
+Our friend's website is a treasure trove of automotive wisdom, and we're thrilled to share these two fantastic posts with you. Whether you're a car aficionado or a bike enthusiast, you're sure to find something valuable in these articles.
+
+Feel free to explore the rest of the website too, as it's packed with helpful tips, DIY maintenance guides, and interesting articles about the world of cars.
+
+Happy reading and enjoy your automotive adventures!
+
+Best regards,
+[Your Name]
+[Your Email Signature]
+
+P.S. If you have any friends who are passionate about cars or motorcycles, don't hesitate to forward this email to them. Let's spread the automotive love!
+
+
+
+
+
+
+
+
+
+3) Use Python & JavaScript to encode input text (and output that text),
+by shifting every character one character to the left. 
+
+
+(
+    PERSPECTIVE PROMPTING
+)
+
+
+
+
+
+
+You are an experienced developer, with years of developing efficient applications.
+
+Write a Python and Javascript code that encodes input text (and outputs that text), by shifting 
+every character one character to the left.
+
+
+
+
+
+
+def encode_text(input_text):
+    encoded_text = ""
+    for char in input_text:
+        if char.isalpha():
+            encoded_char = chr(ord(char) - 1)
+            if char.isupper():
+                encoded_char = encoded_char.upper()
+        else:
+            encoded_char = char
+        encoded_text += encoded_char
+    return encoded_text
+
+# Test the function
+input_text = input("Enter the text to encode: ")
+encoded_text = encode_text(input_text)
+print("Encoded Text:", encoded_text)
+
+
+
+
+
+
+
+function encodeText(inputText) {
+  let encodedText = '';
+  for (let i = 0; i < inputText.length; i++) {
+    let char = inputText[i];
+    if (/[a-zA-Z]/.test(char)) {
+      let encodedChar = String.fromCharCode(char.charCodeAt(0) - 1);
+      if (char === char.toUpperCase()) {
+        encodedChar = encodedChar.toUpperCase();
+      }
+      encodedText += encodedChar;
+    } else {
+      encodedText += char;
+    }
+  }
+  return encodedText;
+}
+
+// Test the function
+const inputText = prompt("Enter the text to encode:");
+const encodedText = encodeText(inputText);
+console.log("Encoded Text:", encodedText);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> 
+
+
+
+
+
+
+A SOLUCAO DO PROFESSOR FOI ESTA:
+
+
+
+
+
+
+
+
+
+You are an experienced web developer who's especially skilled with HTML & CSS.
+
+Create a modern, minimal CV website showing your image and below that a list 
+of your working experience and skills.
+
+
+
+The structure of the website should be the following:
+
+
+1. Main header with image of me + my name("Arthur Panazolo")
+2. A section about my "Work Experience" with a list of my prior occupations
+2.1 Head of Web Development, My Fictional Course Company Inc (2019-2022)
+2.2 Lead Developer, My Fictional Course Company Inc (2015-2019)
+2.3 Junior Developer, My Other Course Company Inc (2010-2015)
+3. A section about my "Skills"
+3.1 HTML, CSS, Javascript - 15 years of experience
+
+
+
+
+
+
+
+
+
+------------------------------------
+
+
+
+
+
+
+
+A SEGUNDA TASK:
+
+
+
+
+
+
+
+
+You are an email-creation AI assistant 
+
+Your goal is to write an engaging newsletter email that mentions two new 
+blog posts.
+
+Email recipients should be intrigued to click on the blog posts and 
+read the full posts.
+
+But before you write this email, you must ask me for any extra information you might need 
+to improve the newsletter email you're about to write.
+
+The two blog posts are:
+
+
+1) The rise of machines: AI has the potential to shake up entire industries.
+But there also are dangers that should be considered.
+
+
+2) Prompt engineers needed! Prompt engineering is an important skill,
+
+since it leads to a more efficient usage of ChatGPT and similar tools.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Thank you for providing the information about the two exciting blog posts! Before I start crafting the engaging newsletter email, could you please let me know the target audience for this email? Knowing the audience will help me tailor the content and language appropriately to capture their interest effectively. Additionally, if you have any specific points or key takeaways from the blog posts that you would like to highlight, please share them, as it will help me create a more compelling email. Once I have this information, I'll get started on writing the newsletter.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+O exemplo 3 também foi resolvido da mesma forma que eu resolvi.

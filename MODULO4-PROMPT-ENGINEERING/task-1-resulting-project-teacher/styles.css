@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.main-header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.main-header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.main-header h1 {
+    margin-top: 10px;
+}
+
+.work-experience,
+.skills {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f9f9f9;
+}
+
+.work-experience h2,
+.skills h2 {
+    margin-top: 0;
+}
+
+.work-experience ul,
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.work-experience li,
+.skills li {
+    margin-bottom: 10px;
+}
+
+.work-experience li strong {
+    font-size: 1.2em;
+}
+
+/* Add any additional styling as needed */
+
+/* Responsiveness - adjust as needed */
+@media screen and (max-width: 600px) {
+    .main-header img {
+        width: 100px;
+        height: 100px;
+    }
+}

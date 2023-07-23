@@ -1,0 +1,249 @@
+
+
+
+
+
+
+
+
+
+
+----> VENDO OS PROMPTS PUBLICADOS POR OUTRAS PESSOAS,
+
+
+COMO OS DO GITHUB,
+PODEM SER BONS PARA RESOLVER SEUS PRÓPRIOS PROBLEMAS COM O CHATGPT..
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> MAS VC PODE EVENTUALMENTE ENCONTRAR AQUILO QUE CHAMAMOS DE ""sUPER PROMPTS">>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+super prompts:
+
+
+
+
+
+
+
+
+
+1) CAN 
+
+
+
+
+
+
+
+
+2) DAN 
+
+
+
+
+
+
+
+3) OUTROS 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CAN --> CODE ANYTHING NOW --> É UM __ PROMPT ESPECIAL,
+
+
+OPTIMIZADO PARA OPTIMIZAR O CHATGPT PARA __ CODING...
+
+
+
+
+
+
+
+
+
+
+
+-> O CAN -> SURGIU POUCO DEPOIS DO CHATGPT TER LANCADO...
+
+
+
+
+
+
+
+
+
+
+-> NA EXPERIENCIA DO PROFESSOR,
+
+
+
+
+NAO É TAO BOM ASSIM... ->  É OVER-CONSTRUCTED,
+
+
+E ADICIONA TOO MUCH INFORMATION E CONTEXT...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2) DAN --> ELE ACTUALLY FAZ JAILBREAK DO 
+
+CHATGPT -> ELE TENTA FAZER O 
+
+CHATGPT RESPONDER 
+
+
+
+
+
+PERGUNTAS QUE NAO DEVERIA RESPONDER,
+
+COMO 
+
+"""BUILD A BOMB""""...
+
+
+
+
+
+
+
+
+
+-> esses super prompts existem,
+
+
+
+mas o professor acha que nao sao tao poderosos assim...
+
+
+
+
+
+
+
+
+-> ESSE JAILBREAKING STUFF É 
+
+_aLGO QUE _ A OPENAI,
+
+
+
+
+DONA 
+
+
+DO CHATGPT,
+ESTÁ ATIVAMENTE 
+
+WORKING AGAINST...
+
+
+
+
+
+-> EXPERIMENTE COM ESSES SUPER PROMPTS, MAS NAO FOQUE NELES...
+
+
+
+
+
+
+
+
+
+--> O CHATGPT NAO NOS ENTENDE DE VERDADE..
+
+
+
+
+
+
+
+--> O ""CAN'" pode funcionar,
+
+
+
+MAS TAMBÉM PODE SER OVER-ENGINEERED E NAO FUNCIONAR...
+
+
+
+
+
+VC DEVE FOCAR NAS GENRAL PROMPTING TECHNIQUES, EM VEZ DISSO...
+
+
+
+
+
+
+

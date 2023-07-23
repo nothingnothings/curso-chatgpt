@@ -1,0 +1,201 @@
+
+
+
+
+
+
+
+
+
+
+
+--> AUTOGPT PARECE INTERESSANTE...
+
+
+
+
+
+
+
+
+
+
+--> E SABER SOBRE ELE É INTERESSANTE...
+
+
+
+
+
+
+
+MAS COMO PODEMOS 
+
+
+USÁ-LO..
+
+
+
+
+
+
+
+
+
+--> ENCONTRE AUTOGPT..
+
+
+
+
+
+
+
+--> É UM GITHUB REPOSITORY...
+
+
+
+
+
+
+
+
+
+--> agpt.co --> esse é o site do autogpt..
+
+
+
+
+
+
+
+--. DETAILS SOBRE A INSTALLATION E USAGE DA TOOL...
+
+
+
+
+
+
+
+
+
+
+
+
+
+-> O PROFESSOR DIZ QUE O AUTOGPT É UMA TOOL QUE ESTÁ MUDANDO TODO 
+
+O TEMPO..
+.
+
+
+
+
+
+
+
+
+
+
+-> ALGUMAS PARTES DO AUTO-GPT JÁ PODEM TER MUDADO...
+
+
+
+
+
+
+
+--> É GREAT FAZER PLAY AROUND COM ELA,
+
+
+E É UMA BOA IDEIA TENTAR USAR O 
+
+
+AUTOGPT PARA CERTOS WORKLOWS,
+
+MAS VC DEVE 
+
+
+ESTAR PREPARADO 
+
+
+PARA RECEBER ERRORS/PROBLEMAS COM O AUTOGPT...
+
+
+
+
+
+
+
+
+
+--> CERTO...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> PODEMOS USAR O DOCKER, PARA INSTALAR...
+
+
+
+
+
+
+
+
+
+
+UNDER THE HOOD, O AUTOGPT USA ESSES GPT MODELS --> PRECISAMOS DE UMA 
+
+
+API KEY DO OPENAI,
+
+PARA CONSEGUIRMOS USAR ISSO 
+
+
+
+COM SEUS PROJETOS...
+
+
+
+
+
+
+
+
+
+--> O AUTO-GPT É UM PROGRAMA QUE VC INSTALA NO SEU SISTEMA..
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--> TAMBÉM OLHE O PRICING DO GPT --> PARA VER O QUANTO CUSTA A USAGE DE CADA 
+MODEL GPT...
+
+
+
+
+
+
+
+
+--> TAMBEM PODEMOS INSTALAR PELO PYTHON..
